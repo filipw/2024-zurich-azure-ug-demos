@@ -1,0 +1,1 @@
+# 2024-zurich-azure-ug-demos
