@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dcat%3Aquant-ph%20AND%20submittedDate%3A%5B202312200000%20TO%20202312202359%5D%26id_list%3D%26start%3D0%26max_results%3D40" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=cat:quant-ph AND submittedDate:[202312200000 TO 202312202359]&amp;id_list=&amp;start=0&amp;max_results=40</title>
+  <id>http://arxiv.org/api/qzgNop9Bit6/t0ATyc8eOYfKhBs</id>
+  <updated>2024-01-12T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">54</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">40</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13483v1</id>
+    <updated>2023-12-20T23:31:53Z</updated>
+    <published>2023-12-20T23:31:53Z</published>
+    <title>SQuADDS: A validated design database and simulation workflow for
+  superconducting qubit design</title>
+    <summary>  We present an open-source database of superconducting quantum device designs
+that may be used as the starting point for customized devices. Each design can
+be generated programmatically using the open-source Qiskit Metal package, and
+simulated using finite-element electromagnetic solvers. We present a robust
+workflow for achieving high accuracy on design simulations. Many designs in the
+database are experimentally validated, showing excellent agreement between
+simulated and measured parameters. Our database includes a front-end interface
+that allows users to generate ``best-guess'' designs based on desired circuit
+parameters. This project lowers the barrier to entry for research groups
+seeking to make a new class of devices by providing them a well-characterized
+starting point from which to refine their designs.
+</summary>
+    <author>
+      <name>Sadman Shanto</name>
+    </author>
+    <author>
+      <name>Andre Kuo</name>
+    </author>
+    <author>
+      <name>Clark Miyamoto</name>
+    </author>
+    <author>
+      <name>Haimeng Zhang</name>
+    </author>
+    <author>
+      <name>Vivek Maurya</name>
+    </author>
+    <author>
+      <name>Evangelos Vlachos</name>
+    </author>
+    <author>
+      <name>Malida Hecht</name>
+    </author>
+    <author>
+      <name>Chung Wa Shum</name>
+    </author>
+    <author>
+      <name>Eli Levenson-Falk</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13483v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13483v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13473v1</id>
+    <updated>2023-12-20T22:48:38Z</updated>
+    <published>2023-12-20T22:48:38Z</published>
+    <title>Accuracy vs Memory Advantage in the Quantum Simulation of Stochastic
+  Processes</title>
+    <summary>  Many inference scenarios rely on extracting relevant information from known
+data in order to make future predictions. When the underlying stochastic
+process satisfies certain assumptions, there is a direct mapping between its
+exact classical and quantum simulators, with the latter asymptotically using
+less memory. Here we focus on studying whether such quantum advantage persists
+when those assumptions are not satisfied, and the model is doomed to have
+imperfect accuracy. By studying the trade-off between accuracy and memory
+requirements, we show that quantum models can reach the same accuracy with less
+memory, or alternatively, better accuracy with the same memory. Finally, we
+discuss the implications of this result for learning tasks.
+</summary>
+    <author>
+      <name>Leonardo Banchi</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13473v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13473v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13458v1</id>
+    <updated>2023-12-20T22:17:56Z</updated>
+    <published>2023-12-20T22:17:56Z</published>
+    <title>Fourier Quantum Process Tomography</title>
+    <summary>  The characterization of a quantum device is a crucial step in the development
+of quantum experiments. This is accomplished via Quantum Process Tomography,
+which combines the outcomes of different projective measurements to deliver a
+possible reconstruction of the underlying process. The tomography is typically
+performed by processing an overcomplete set of measurements and extracting the
+process matrix from maximum-likelihood estimation. Here, we introduce a new
+technique, referred to as Fourier Quantum Process Tomography, which requires a
+reduced number of measurements, and benchmark its performance against the
+standard maximum-likelihood approach. Fourier Quantum Process Tomography is
+based on measuring probability distributions in two conjugate spaces for
+different state preparations and projections. Exploiting the concept of phase
+retrieval, our scheme achieves a complete and robust characterization of the
+setup by processing a near-minimal set of measurements. We experimentally test
+the technique on different space-dependent polarization transformations,
+reporting average fidelities higher than 90% and significant computational
+advantage.
+</summary>
+    <author>
+      <name>Francesco Di Colandrea</name>
+    </author>
+    <author>
+      <name>Nazanin Dehghan</name>
+    </author>
+    <author>
+      <name>Alessio D'Errico</name>
+    </author>
+    <author>
+      <name>Ebrahim Karimi</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13458v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13458v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13444v2</id>
+    <updated>2024-01-08T17:19:50Z</updated>
+    <published>2023-12-20T21:36:09Z</published>
+    <title>Optimal energy storage in the Tavis-Cummings quantum battery</title>
+    <summary>  The Tavis-Cummings (TC) model, which serves as a natural physical realization
+of a quantum battery, comprises $N_b$ atoms as battery cells that collectively
+interact with a shared photon field, functioning as the charger, initially
+containing $n_0$ photons. In this study, we introduce the invariant subspace
+method to effectively represent the quantum dynamics of the TC battery. Our
+findings indicate that in the limiting case of $n_0\!\gg\! N_b$ or $N_b\!\gg\!
+n_0$, a distinct SU(2) symmetry emerges in the dynamics, thereby ensuring the
+realization of optimal energy storage. We also establish a negative
+relationship between the battery-charger entanglement and the energy storage
+capacity. As a result, we demonstrate that the asymptotically optimal energy
+storage can be achieved in the scenario where $N_b\!=\!n_0\!\gg\! 1$. Our
+approach not only enhances our comprehension of the algebraic structure
+inherent in the TC model but also contributes to the broader theoretical
+framework of quantum batteries. Furthermore, it provides crucial insights into
+the relation between energy transfer and quantum correlations.
+</summary>
+    <author>
+      <name>Hui-Yu Yang</name>
+    </author>
+    <author>
+      <name>Hai-Long Shi</name>
+    </author>
+    <author>
+      <name>Qing-Kun Wan</name>
+    </author>
+    <author>
+      <name>Kun Zhang</name>
+    </author>
+    <author>
+      <name>Xiao-Hui Wang</name>
+    </author>
+    <author>
+      <name>Wen-Li Yang</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevA.109.012204</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevA.109.012204" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 4 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys. Rev. A 109, 012204 (2024)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.13444v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13444v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13421v1</id>
+    <updated>2023-12-20T20:51:10Z</updated>
+    <published>2023-12-20T20:51:10Z</published>
+    <title>Geometric signature of non-Markovian dynamics</title>
+    <summary>  Non-Markovian effects of an open system dynamics are typically characterized
+by non-monotonic information flows from the system to its environment or
+information backflows from the environment to the system. By using a two-level
+system (TLS) coupled to a dissipative single-mode cavity, we show that the
+geometric decoherence of the open quantum system of interest can serve as a
+reliable witness of non-Markovian dynamics. This geometric approach can also
+reveal the finer details about the dynamics such as the time points where the
+non-Markovian behaviors come into operation. Specifically, we show that the
+divergence of the geometric decoherence factor of the TLS can be a sufficient
+condition for the non-Markovian dynamics. Remarkably, it can even become a
+necessary and sufficient condition in certain cases.
+</summary>
+    <author>
+      <name>Da-Wei Luo</name>
+    </author>
+    <author>
+      <name>Ting Yu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13421v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13421v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13420v1</id>
+    <updated>2023-12-20T20:50:54Z</updated>
+    <published>2023-12-20T20:50:54Z</published>
+    <title>Ultraslow Growth of Number Entropy in an l-bit Model of Many-Body
+  Localization</title>
+    <summary>  We demonstrate that slow growth of the number entropy following a quench from
+a local product state is consistent with many-body localization. To do this we
+construct a random circuit l-bit model with exponentially localized l-bits and
+exponentially decaying interactions between them. We observe an ultraslow
+growth of the number entropy starting from a N\'eel state, saturating at a
+value that grows with system size. This suggests that the observation of such
+growth in microscopic models is not sufficient to rule out many-body
+localization.
+</summary>
+    <author>
+      <name>David Aceituno Chávez</name>
+    </author>
+    <author>
+      <name>Claudia Artiaco</name>
+    </author>
+    <author>
+      <name>Thomas Klein Kvorning</name>
+    </author>
+    <author>
+      <name>Loïc Herviou</name>
+    </author>
+    <author>
+      <name>Jens H. Bardarson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Main: 6 pages, 2 figures. Supplemental material: 6 pages, 6 figures,
+  1 table, 1 video</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13420v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13420v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13419v1</id>
+    <updated>2023-12-20T20:44:18Z</updated>
+    <published>2023-12-20T20:44:18Z</published>
+    <title>Entanglement Dynamics in Monitored Systems and the Role of Quantum Jumps</title>
+    <summary>  Monitored quantum many-body systems display a rich pattern of entanglement
+dynamics, which is unique to this non-unitary setting. This work studies the
+effect of quantum jumps on the entanglement dynamics beyond the no-click limit
+corresponding to a deterministic non-Hermitian evolution. We consider two
+examples, a monitored SSH model and a quantum Ising chain, for which we show
+the jumps have remarkably different effects on the entanglement despite having
+the same statistics as encoded in their waiting-time distribution. To
+understand this difference, we introduce a new metric, the statistics of
+entanglement gain and loss due to jumps and non-Hermitian evolution. This
+insight allows us to build a simple stochastic model of a random walk with
+partial resetting, which reproduces the entanglement dynamics, and to dissect
+the mutual role of jumps and non-Hermitian evolution on the entanglement
+scaling. We demonstrate that significant deviations from the no-click limit
+arise whenever quantum jumps strongly renormalize the non-Hermitian dynamics,
+as in the case of the SSH model at weak monitoring or in the Ising chain at
+large transverse field. On the other hand, we show that the weak monitoring
+phase of the Ising chain leads to a robust sub-volume logarithmic phase due to
+weakly renormalized non-Hermitian dynamics.
+</summary>
+    <author>
+      <name>Youenn Le Gal</name>
+    </author>
+    <author>
+      <name>Xhek Turkeshi</name>
+    </author>
+    <author>
+      <name>Marco Schirò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 + 5 pages, 10 + 4 figures. Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13419v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13419v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13408v1</id>
+    <updated>2023-12-20T20:23:32Z</updated>
+    <published>2023-12-20T20:23:32Z</published>
+    <title>Testing Eigenstate Thermalization Hypothesis for Non-Abelian Gauge
+  Theories</title>
+    <summary>  We report on progress in full quantum understanding of thermalization in
+non-Abelian gauge theories. Specifically, we test the eigenstate thermalization
+hypothesis for (2+1)-dimensional SU(2) lattice gauge theory.
+</summary>
+    <author>
+      <name>Xiaojun Yao</name>
+    </author>
+    <author>
+      <name>Lukas Ebner</name>
+    </author>
+    <author>
+      <name>Berndt Müller</name>
+    </author>
+    <author>
+      <name>Andreas Schäfer</name>
+    </author>
+    <author>
+      <name>Clemens Seidl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4 pages, 4 figures, contribution to the proceedings of the 30th
+  International Conference on Ultra-relativistic Nucleus-Nucleus Collisions
+  (Quark Matter 2023)</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13408v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13408v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13406v1</id>
+    <updated>2023-12-20T20:18:51Z</updated>
+    <published>2023-12-20T20:18:51Z</published>
+    <title>A condition for the zero-error capacity of quantum channels</title>
+    <summary>  In this paper, we present a condition for the zero-error capacity of quantum
+channels. To achieve this result we first prove that the eigenvectors (or
+eigenstates) common to the Kraus operators representing the quantum channel are
+fixed points of the channel. From this fact and assuming that these Kraus
+operators have at least two eigenstates in common and also considering that
+every quantum channel has at least one fixed point, it is proved that the
+zero-error capacity of the quantum channel is positive. Moreover, this
+zero-error capacity condition is a lower bound for the zero-error capacity of
+the quantum channel. This zero-error capacity condition of quantum channels has
+a peculiar feature that it is easy to verify when one knows the Kraus operators
+representing the quantum channel.
+</summary>
+    <author>
+      <name>Marciel M. Oliveira</name>
+    </author>
+    <author>
+      <name>Francisco M. de Assis</name>
+    </author>
+    <author>
+      <name>Micael A. Dias</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Four pages, conference paper</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13406v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13406v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13400v1</id>
+    <updated>2023-12-20T20:04:39Z</updated>
+    <published>2023-12-20T20:04:39Z</published>
+    <title>SICs and the triangle group (3,3,3)</title>
+    <summary>  The problem of existence of symmetric informationally-complete positive
+operator-valued measures (SICs for short) in every dimension is known as
+Zauner's conjecture and remains open to this day. Most of the known SIC
+examples are constructed as an orbit of the Weyl-Heisenberg group action. It
+appears that in these cases SICs are invariant under so-called canonical order
+3 unitaries, which define automorphisms of the Weyl-Heisenberg group. In this
+note we show that those order 3 unitaries appear in projective unitary
+representations of the triangle group $(3,3,3)$. We give a full description of
+such representations and show how it can be used to obtain results about the
+structure of canonical order 3 unitaries. In particular, we present an
+alternative way of proving the fact that any canonical order 3 unitary is
+conjugate to Zauner's unitary if dimension $d&gt;3$ is prime.
+</summary>
+    <author>
+      <name>Danylo Yakymenko</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13400v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13400v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20C35, 81P15, 81R05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13386v1</id>
+    <updated>2023-12-20T19:21:06Z</updated>
+    <published>2023-12-20T19:21:06Z</published>
+    <title>Long-time Quantum Information Scrambling and Emergent Mereology</title>
+    <summary>  Recent work by Zanardi et al. (arXiv:2212.14340) has associated each possible
+partition of a quantum system with an operational subalgebra and proposed that
+the short-time growth of the algebraic out-of-time-order-correlator
+("$\mathcal{A}$-OTOC") is a suitable criterion to determine which partition
+arises naturally from the system's unitary dynamics. We extend this work to the
+long-time regime. Specifically, the long-time average of the $\mathcal{A}$-OTOC
+serves as our metric of subsystem emergence. Under this framework, natural
+system partitions are characterized by the tendency to minimally scramble
+information over long time scales. We derive an analytic expression for the
+$\mathcal{A}$-OTOC long-time average under the non-resonance condition. We then
+consider several physical examples and perform minimization of this quantity
+both analytically and numerically over relevant families of algebras. For
+simple cases subject to the non-resonant condition, minimal $\mathcal{A}$-OTOC
+long-time average is shown to be related to minimal entanglement of the
+Hamiltonian eigenstates across the emergent system partition. Finally, we
+conjecture and provide evidence for a general structure of the algebra that
+minimizes the average for non-resonant Hamiltonians.
+</summary>
+    <author>
+      <name>Faidon Andreadakis</name>
+    </author>
+    <author>
+      <name>Emanuel Dallas</name>
+    </author>
+    <author>
+      <name>Paolo Zanardi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Preliminary version, comments are welcome. 10+5 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13386v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13386v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13376v1</id>
+    <updated>2023-12-20T19:04:17Z</updated>
+    <published>2023-12-20T19:04:17Z</published>
+    <title>Advantage of multi-partite entanglement for quantum cryptography over
+  long and short ranged networks</title>
+    <summary>  The increasing sophistication of available quantum networks has seen a
+corresponding growth in the pursuit of multi-partite cryptographic protocols.
+Whilst the use of multi-partite entanglement is known to offer an advantage in
+certain abstractly motivated contexts, the quest to find practical advantage
+scenarios is ongoing and substantial difficulties in generalising some
+bi-partite security proofs still remain. We present rigorous results that
+address both these challenges at the same time. First, we prove the security of
+a variant of the GHZ state based secret sharing protocol against general
+attacks, including participant attacks which break the security of the original
+GHZ state scheme. We then identify parameters for a performance advantage over
+realistic bottleneck networks. We show that whilst channel losses limit the
+advantage region to short distances over direct transmission networks, the
+addition of quantum repeaters unlocks the performance advantage of
+multi-partite entanglement over point-to-point approaches for long distance
+quantum cryptography.
+</summary>
+    <author>
+      <name>Janka Memmen</name>
+    </author>
+    <author>
+      <name>Jens Eisert</name>
+    </author>
+    <author>
+      <name>Nathan Walk</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13376v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13376v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13374v1</id>
+    <updated>2023-12-20T19:03:23Z</updated>
+    <published>2023-12-20T19:03:23Z</published>
+    <title>On the tensorial structure of general covariant quantum systems</title>
+    <summary>  The definition of a quantum system requires a Hilbert space, a way to define
+the dynamics, and an algebra of observables. The structure of the observable
+algebra is related to a tensor product decomposition of the Hilbert space and
+represents the composition of the system by subsystems. It has been remarked
+that the Hamiltonian may determine this tensor product structure. Here we
+observe that this fact may lead to questionable consequences in some cases, and
+does extend to the more general background-independent case, where the
+Hamiltonian is replaced by a Hamiltonian constraint. These observations
+reinforces the idea that specifying the observables and the way they interplay
+with the dynamics, is essential to define a quantum theory. We also reflect on
+the general role that system decomposition has in the quantum theory.
+</summary>
+    <author>
+      <name>Gabriel M. Carral</name>
+    </author>
+    <author>
+      <name>Iñaki Garay</name>
+    </author>
+    <author>
+      <name>Francesca Vidotto</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, no figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13374v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13374v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13350v1</id>
+    <updated>2023-12-20T19:00:02Z</updated>
+    <published>2023-12-20T19:00:02Z</published>
+    <title>Improving fidelity of multi-qubit gates using hardware-level pulse
+  parallelization</title>
+    <summary>  Quantum computation holds the promise of solving computational problems which
+are believed to be classically intractable. However, in practice, quantum
+devices are still limited by their relatively short coherence times and
+imperfect circuit-hardware mapping. In this work, we present the
+parallelization of pre-calibrated pulses at the hardware level as an
+easy-to-implement strategy to optimize quantum gates. Focusing on $R_{ZX}$
+gates, we demonstrate that such parallelization leads to improved fidelity and
+gate time reduction, when compared to serial concatenation. As measured by
+Cycle Benchmarking, our most modest fidelity gain was from 98.16(7)% to
+99.15(3)% for the application of two $R_{ZX}(\pi/2)$ gates with one shared
+qubit. We show that this strategy can be applied to other gates like the CNOT
+and CZ, and it may benefit tasks such as Hamiltonian simulation problems,
+amplitude amplification, and error-correction codes.
+</summary>
+    <author>
+      <name>Sagar Silva Pratapsi</name>
+    </author>
+    <author>
+      <name>Diogo Cruz</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13350v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13350v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13343v1</id>
+    <updated>2023-12-20T19:00:01Z</updated>
+    <published>2023-12-20T19:00:01Z</published>
+    <title>Closed-form expressions for smeared bi-distributions of a massless
+  scalar field: non-perturbative and asymptotic results in relativistic quantum
+  information</title>
+    <summary>  Using spacetime Gaussian test functions, we find closed-form expressions for
+the smeared Wightman function, Feynman propagator, retarded and advanced
+Green's functions, causal propagator and symmetric propagator of a massless
+scalar field in the vacuum of Minkowski spacetime. We apply our results to
+localized quantum systems which interact with a quantum field in Gaussian
+spacetime regions and study different relativistic quantum information
+protocols. In the protocol of entanglement harvesting, we find a closed-form
+expression for the entanglement that can be acquired by probes which interact
+in Gaussian spacetime regions and obtain asymptotic results for the protocol.
+We also revisit the case of two gapless detectors and show that the detectors
+can become entangled if there is two-way signalling between their interaction
+regions, providing closed-form expressions for the detectors' final state.
+</summary>
+    <author>
+      <name>T. Rick Perche</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 2 figures, 1 appendix. Revtex 4-2</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13343v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13343v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13282v2</id>
+    <updated>2024-01-01T20:48:32Z</updated>
+    <published>2023-12-20T18:59:15Z</published>
+    <title>Estimating Trotter Approximation Errors to Optimize Hamiltonian
+  Partitioning for Lower Eigenvalue Errors</title>
+    <summary>  One of the ways to encode many-body Hamiltonians on a quantum computer to
+obtain their eigen-energies through Quantum Phase Estimation is by means of the
+Trotter approximation. There were several ways proposed to assess the quality
+of this approximation based on estimating the norm of the difference between
+the exact and approximate evolution operators. Here, we would like to explore
+how these different error estimates are correlated with each other and whether
+they can be good predictors for the true Trotter approximation error in finding
+eigenvalues. For a set of small molecular systems we calculated the exact
+Trotter approximation errors of the first order Trotter formulas for the ground
+state electronic energies. Comparison of these errors with previously used
+upper bounds show almost no correlation over the systems and various
+Hamiltonian partitionings. On the other hand, building the Trotter
+approximation error estimation based on perturbation theory up to a second
+order in the time-step for eigenvalues provides estimates with very good
+correlations with the Trotter approximation errors. The developed perturbative
+estimates can be used for practical time-step and Hamiltonian partitioning
+selection protocols, which are paramount for an accurate assessment of
+resources needed for the estimation of energy eigenvalues under a target
+accuracy.
+</summary>
+    <author>
+      <name>Luis A. Martínez-Martínez</name>
+    </author>
+    <author>
+      <name>Prathami Divakar Kamath</name>
+    </author>
+    <author>
+      <name>Artur F. Izmaylov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13282v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13282v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00860v1</id>
+    <updated>2023-12-20T18:40:37Z</updated>
+    <published>2023-12-20T18:40:37Z</published>
+    <title>Optical tweezer generation using automated alignment and adaptive optics</title>
+    <summary>  Recent progress in quantum technologies with ultracold atoms has been
+propelled by spatially fine-tuned control of lasers and diffraction-limited
+imaging. The state-of-the-art precision of optical alignment to achieve this
+fine-tuning is reaching the limits of manual control. Here, we show how to
+automate this process. One of the elementary techniques of manual alignment of
+optics is cross-walking of laser beams. Here, we generalize this technique to
+multi-variable cross-walking. Mathematically, this is a variant of the
+well-known Alternating Minimization (AM) algorithm in convex optimization and
+is closely related to the Gauss-Seidel algorithm. Therefore, we refer to our
+multi-variable cross-walking algorithm as the modified AM algorithm. While
+cross-walking more than two variables manually is challenging, one can do this
+easily for machine-controlled variables. We apply this algorithm to
+mechanically align high numerical aperture (NA) objectives and show that we can
+produce high-quality diffraction-limited tweezers and point spread functions
+(PSF). After a rudimentary coarse alignment, the algorithm takes about 1 hour
+to align the optics to produce high-quality tweezers. Moreover, we use the same
+algorithm to optimize the shape of a deformable mirror along with the
+mechanical variables and show that it can be used to correct for optical
+aberrations produced, for example, by glass thickness when producing tweezers
+and imaging point sources. The shape of the deformable mirror is parametrized
+using the first 14 non-trivial Zernike polynomials, and the corresponding
+coefficients are optimized together with the mechanical alignment variables. We
+show PSF with a Strehl ratio close to 1 and tweezers with a Strehl ratio &gt;0.8.
+The algorithm demonstrates exceptional robustness, effectively operating in the
+presence of significant mechanical fluctuations induced by a noisy environment.
+</summary>
+    <author>
+      <name>Bharath Hebbe Madhusudhana</name>
+    </author>
+    <author>
+      <name>Karatzyna Krzyzanowska</name>
+    </author>
+    <author>
+      <name>Malcolm Boshier</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2401.00860v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2401.00860v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13250v1</id>
+    <updated>2023-12-20T18:25:15Z</updated>
+    <published>2023-12-20T18:25:15Z</published>
+    <title>The role of data embedding in equivariant quantum convolutional neural
+  networks</title>
+    <summary>  Geometric deep learning refers to the scenario in which the symmetries of a
+dataset are used to constrain the parameter space of a neural network and thus,
+improve their trainability and generalization. Recently this idea has been
+incorporated into the field of quantum machine learning, which has given rise
+to equivariant quantum neural networks (EQNNs). In this work, we investigate
+the role of classical-to-quantum embedding on the performance of equivariant
+quantum convolutional neural networks (EQCNNs) for the classification of
+images. We discuss the connection between the data embedding method and the
+resulting representation of a symmetry group and analyze how changing
+representation affects the expressibility of an EQCNN. We numerically compare
+the classification accuracy of EQCNNs with three different basis-permuted
+amplitude embeddings to the one obtained from a non-equivariant quantum
+convolutional neural network (QCNN). Our results show that all the EQCNNs
+achieve higher classification accuracy than the non-equivariant QCNN for small
+numbers of training iterations, while for large iterations this improvement
+crucially depends on the used embedding. It is expected that the results of
+this work can be useful to the community for a better understanding of the
+importance of data embedding choice in the context of geometric quantum machine
+learning.
+</summary>
+    <author>
+      <name>Sreetama Das</name>
+    </author>
+    <author>
+      <name>Stefano Martina</name>
+    </author>
+    <author>
+      <name>Filippo Caruso</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13250v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13250v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13246v1</id>
+    <updated>2023-12-20T18:22:42Z</updated>
+    <published>2023-12-20T18:22:42Z</published>
+    <title>A refinement of the argument of local realism versus quantum mechanics
+  by algorithmic randomness</title>
+    <summary>  The notion of probability plays a crucial role in quantum mechanics. It
+appears in quantum mechanics as the Born rule. In modern mathematics which
+describes quantum mechanics, however, probability theory means nothing other
+than measure theory, and therefore any operational characterization of the
+notion of probability is still missing in quantum mechanics. In our former
+works [K. Tadaki, arXiv:1804.10174], based on the toolkit of algorithmic
+randomness, we presented a refinement of the Born rule, called the principle of
+typicality, for specifying the property of results of measurements in an
+operational way. In this paper, we make an application of our framework to the
+argument of local realism versus quantum mechanics for refining it, in order to
+demonstrate how properly our framework works in practical problems in quantum
+mechanics.
+</summary>
+    <author>
+      <name>Kohtaro Tadaki</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This work is a substantial extension of a preliminary paper of the
+  author [arXiv:1804.10174] which appeared without peer review in: Masahiko
+  Sakai (ed.), New Trends in Algorithms and Theory of Computation, RIMS
+  Kokyuroku, No.2154, pp.27-53, April 2020. Available at
+  http://hdl.handle.net/2433/255108. arXiv admin note: text overlap with
+  arXiv:1909.02854</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13246v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13246v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13241v1</id>
+    <updated>2023-12-20T18:08:25Z</updated>
+    <published>2023-12-20T18:08:25Z</published>
+    <title>Deterministic Ansätze for the Measurement-based Variational Quantum
+  Eigensolver</title>
+    <summary>  Measurement-based quantum computing (MBQC) is a promising approach to
+reducing circuit depth in noisy intermediate-scale quantum algorithms such as
+the Variational Quantum Eigensolver (VQE). Unlike gate-based computing, MBQC
+employs local measurements on a preprepared resource state, offering a
+trade-off between circuit depth and qubit count. Ensuring determinism is
+crucial to MBQC, particularly in the VQE context, as a lack of flow in
+measurement patterns leads to evaluating the cost function at irrelevant
+locations. This study introduces MBVQE-ans\"atze that respect determinism and
+resemble the widely used problem-agnostic hardware-efficient VQE ansatz. We
+evaluate our approach using ideal simulations on the Schwinger Hamiltonian and
+$XY$-model and perform experiments on IBM hardware with an adaptive measurement
+capability. In our use case, we find that ensuring determinism works better via
+postselection than by adaptive measurements at the expense of increased
+sampling cost. Additionally, we propose an efficient MBQC-inspired method to
+prepare the resource state, specifically the cluster state, on hardware with
+heavy-hex connectivity, requiring a single measurement round, and implement
+this scheme on quantum computers with $27$ and $127$ qubits. We observe notable
+improvements for larger cluster states, although direct gate-based
+implementation achieves higher fidelity for smaller instances.
+</summary>
+    <author>
+      <name>Anna Schroeder</name>
+    </author>
+    <author>
+      <name>Matthias Heller</name>
+    </author>
+    <author>
+      <name>Mariami Gachechiladze</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 7 figures, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13241v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13241v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13233v1</id>
+    <updated>2023-12-20T17:57:17Z</updated>
+    <published>2023-12-20T17:57:17Z</published>
+    <title>Unified Framework for Open Quantum Dynamics with Memory</title>
+    <summary>  Studies of the dynamics of a quantum system coupled to a bath are typically
+performed by utilizing the Nakajima-Zwanzig memory kernel (${\mathcal{K}}$) or
+the influence functions ($\mathbf{{I}}$), especially when the dynamics exhibit
+memory effects (i.e., non-Markovian). Despite their significance, the formal
+connection between the memory kernel and the influence functions has not been
+explicitly made. We reveal their relation through the observation of a
+diagrammatic structure underlying the system propagator, $\mathbf{{I}}$, and
+${\mathcal{K}}$. Based on this, we propose a non-perturbative, diagrammatic
+approach to construct ${\mathcal{K}}$ from $\mathbf{{I}}$ for (driven) systems
+interacting with harmonic baths without the use of any projection-free dynamics
+inputs required by standard approaches. With this construction, we also show
+how approximate path integral methods can be understood in terms of approximate
+memory kernels. Furthermore, we demonstrate a Hamiltonian learning procedure to
+extract the bath spectral density from a set of reduced system trajectories
+obtained experimentally or by numerically exact methods, opening new avenues in
+quantum sensing and engineering. The insights we provide in this work will
+significantly advance the understanding of non-Markovian dynamics, and they
+will be an important stepping stone for theoretical and experimental
+developments in this area.
+</summary>
+    <author>
+      <name>Felix Ivander</name>
+    </author>
+    <author>
+      <name>Lachlan P. Lindoy</name>
+    </author>
+    <author>
+      <name>Joonho Lee</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments and questions welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13233v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13233v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13221v1</id>
+    <updated>2023-12-20T17:39:22Z</updated>
+    <published>2023-12-20T17:39:22Z</published>
+    <title>Robust atom-photon gate for quantum information processing</title>
+    <summary>  We propose a scheme for two-qubit gates between a flying photon and an atom
+in a cavity. The atom-photon gate setup consists of a cavity and a Mach-Zehnder
+interferometer with doubly degenerate ground and excited state energy levels
+mediating the atom-light interaction. We provide an error analysis of the gate
+and model important errors, including spatial mode mismatch between the photon
+and the cavity, spontaneous emission, cavity losses, detunings, and random
+fluctuations of the cavity parameters and frequencies. Error analysis shows
+that the gate protocol is more robust against experimental errors compared to
+previous atom-photon gates and achieves higher fidelity.
+</summary>
+    <author>
+      <name>Omar Nagib</name>
+    </author>
+    <author>
+      <name>P. Huft</name>
+    </author>
+    <author>
+      <name>A. Safari</name>
+    </author>
+    <author>
+      <name>M. Saffman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13221v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13221v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13214v1</id>
+    <updated>2023-12-20T17:31:19Z</updated>
+    <published>2023-12-20T17:31:19Z</published>
+    <title>A pedagogical introduction to continuously monitored quantum systems and
+  measurement-based feedback</title>
+    <summary>  In this manuscript we present a pedagogical introduction to continuously
+monitored quantum systems. We start by giving a simplified derivation of the
+Markovian master equation in Lindblad form, in the spirit of collision models
+and input-output theory, which describes the unconditional dynamics of a
+continuously monitored system. The same formalism is then exploited to derive
+stochastic master equations that describe the conditional dynamics. We focus on
+the two most paradigmatic examples of continuous monitoring: continuous
+photodetection, leading to a discontinuous dynamics with "quantum jumps", and
+continuous homodyne measurements, leading to a diffusive dynamics. We then
+present a derivation of feedback master equations that describe the dynamics
+(either conditional or unconditional) when the continuous measurement
+photocurrents are fed back to the system as a linear driving Hamiltonian, a
+paradigm known as linear Markovian feedback. In the second part of the
+manuscript we focus on continuous-variable Gaussian systems: we first present
+the equations for first and second moments describing the dynamics under
+continuous general-dyne measurements, and we then discuss in more detail the
+conditional and unconditional dynamics under Markovian and state-based
+feedback.
+</summary>
+    <author>
+      <name>Francesco Albarelli</name>
+    </author>
+    <author>
+      <name>Marco G. Genoni</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.physleta.2023.129260</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.physleta.2023.129260" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Tutorial paper based on the lecture notes for the course "Coherence
+  and control of quantum systems" taught by MGG at the University of Milan and
+  submitted to the special issue "Foundations and applications of Quantum
+  Optics" of Physics Letters A related to the Central European Workshop on
+  Quantum Optics 2023</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys. Lett. A 494, 129260 (2024)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.13214v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13214v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13213v1</id>
+    <updated>2023-12-20T17:28:47Z</updated>
+    <published>2023-12-20T17:28:47Z</published>
+    <title>Quantum transition probability in convex sets and self-dual cones</title>
+    <summary>  The interplay between the algebraic structure (operator algebras) for the
+quantum observables and the convex structure of the state space has been
+explored for a long time and most advanced results are due to Alfsen and
+Shultz. Here we present a more elementary approach with a more generic
+structure for the observables, which focuses on the transition probability of
+the quantum logical atoms. The binary case gives rise to the generalized qubit
+models and was fully developed in a preceding paper. Here we consider any case
+with finite information capacity (binary means that the information capacity is
+2). A novel geometric property that makes any compact convex set a matching
+state space is presented. Generally, the transition probability is not
+symmetric; if it is symmetric, we get an inner product and a self-dual cone.
+The emerging mathematical structure comes close to the Euclidean Jordan
+algebras and becomes a new mathematical model for a potential extension of
+quantum theory.
+</summary>
+    <author>
+      <name>Gerd Niestegge</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13213v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13213v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13206v4</id>
+    <updated>2024-01-11T16:17:29Z</updated>
+    <published>2023-12-20T17:23:11Z</published>
+    <title>Polylogarithmic-depth controlled-NOT gates without ancilla qubits</title>
+    <summary>  Controlled operations are fundamental building blocks of quantum algorithms.
+Decomposing $n$-control-NOT gates ($C^n(X)$) into arbitrary single-qubit and
+CNOT gates, is a crucial but non-trivial task. This study introduces $C^n(X)$
+circuits outperforming previous methods in the asymptotic and non-asymptotic
+regimes. Three distinct decompositions are presented: an exact one using one
+borrowed ancilla with a circuit depth $\Theta\left(\log(n)^{3}\right)$, an
+approximating one without ancilla qubits with a circuit depth $\mathcal O
+\left(\log(n)^{3}\log(1/\epsilon)\right)$ and an exact one with an
+adjustable-depth circuit which decreases with the number $m\leq n$ of ancilla
+qubits available as $O(log(2n/m)^3+log(m/2))$. The resulting exponential
+speedup is likely to have a substantial impact on fault-tolerant quantum
+computing by improving the complexities of countless quantum algorithms with
+applications ranging from quantum chemistry to physics, finance and quantum
+machine learning.
+</summary>
+    <author>
+      <name>Baptiste Claudon</name>
+    </author>
+    <author>
+      <name>Julien Zylberman</name>
+    </author>
+    <author>
+      <name>César Feniou</name>
+    </author>
+    <author>
+      <name>Fabrice Debbasch</name>
+    </author>
+    <author>
+      <name>Alberto Peruzzo</name>
+    </author>
+    <author>
+      <name>Jean-Philip Piquemal</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13206v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13206v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13191v1</id>
+    <updated>2023-12-20T17:02:19Z</updated>
+    <published>2023-12-20T17:02:19Z</published>
+    <title>Transmuted spectrum-generating algebras and detectable parastatistics of
+  the Superconformal Quantum Mechanics</title>
+    <summary>  In a recent paper (Balbino-de Freitas-Rana-FT, arXiv:2309.00965) we proved
+that the supercharges of the supersymmetric quantum mechanics can be
+statistically transmuted and accommodated into a $Z_2^n$-graded parastatistics.
+In this talk I derive the $6=1+2+3$ transmuted spectrum-generating algebras
+(whose respective $Z_2^n$ gradings are $n=0,1,2$) of the ${\cal N}=2$
+Superconformal Quantum Mechanics. These spectrum-generating algebras allow to
+compute, in the corresponding multiparticle sectors of the de
+Alfaro-Fubini-Furlan deformed oscillator, the degeneracies of each energy
+level. The levels induced by the $Z_2\times Z_2$-graded paraparticles cannot be
+reproduced by the ordinary bosons/fermions statistics. This implies the
+theoretical detectability of the $Z_2\times Z_2$-graded parastatistics.
+</summary>
+    <author>
+      <name>Francesco Toppan</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1088/1742-6596/2667/1/012014</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1088/1742-6596/2667/1/012014" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages; in the proceedings of XII International Symposium on Quantum
+  Theory and Symmetries - QTS12, Prague, July 2023</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Phys.: Conf. Ser. 2667 (2023) 012014</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.13191v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13191v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13185v1</id>
+    <updated>2023-12-20T16:54:05Z</updated>
+    <published>2023-12-20T16:54:05Z</published>
+    <title>Measurement-based quantum computation from Clifford quantum cellular
+  automata</title>
+    <summary>  Measurement-based quantum computation (MBQC) is a paradigm for quantum
+computation where computation is driven by local measurements on a suitably
+entangled resource state. In this work we show that MBQC is related to a model
+of quantum computation based on Clifford quantum cellular automata (CQCA).
+Specifically, we show that certain MBQCs can be directly constructed from CQCAs
+which yields a simple and intuitive circuit model representation of MBQC in
+terms of quantum computation based on CQCA. We apply this description to
+construct various MBQC-based Ans\"atze for parameterized quantum circuits,
+demonstrating that the different Ans\"atze may lead to significantly different
+performances on different learning tasks. In this way, MBQC yields a family of
+Hardware-efficient Ans\"atze that may be adapted to specific problem settings
+and is particularly well suited for architectures with translationally
+invariant gates such as neutral atoms.
+</summary>
+    <author>
+      <name>Hendrik Poulsen Nautrup</name>
+    </author>
+    <author>
+      <name>Hans J. Briegel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, 12 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13185v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13185v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13135v1</id>
+    <updated>2023-12-20T15:56:31Z</updated>
+    <published>2023-12-20T15:56:31Z</published>
+    <title>Accelerated adiabatic passage of a single electron spin qubit in quantum
+  dots</title>
+    <summary>  Adiabatic processes can keep the quantum system in its instantaneous
+eigenstate, which is robust to noises and dissipation. However, it is limited
+by sufficiently slow evolution. Here, we experimentally demonstrate the
+transitionless quantum driving (TLQD) of the shortcuts to adiabaticity (STA) in
+gate-defined semiconductor quantum dots (QDs) to greatly accelerate the
+conventional adiabatic passage for the first time. For a given efficiency of
+quantum state transfer, the acceleration can be more than 2-fold. The dynamic
+properties also prove that the TLQD can guarantee fast and high-fidelity
+quantum state transfer. In order to compensate for the diabatic errors caused
+by dephasing noises, the modified TLQD is proposed and demonstrated in
+experiment by enlarging the width of the counter-diabatic drivings. The
+benchmarking shows that the state transfer fidelity of 97.8% can be achieved.
+This work will greatly promote researches and applications about quantum
+simulations and adiabatic quantum computation based on the gate-defined QDs.
+</summary>
+    <author>
+      <name>Xiao-Fei Liu</name>
+    </author>
+    <author>
+      <name>Yuta Matsumoto</name>
+    </author>
+    <author>
+      <name>Takafumi Fujita</name>
+    </author>
+    <author>
+      <name>Arne Ludwig</name>
+    </author>
+    <author>
+      <name>Andreas D. Wieck</name>
+    </author>
+    <author>
+      <name>Akira Oiwa</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13135v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13135v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13123v1</id>
+    <updated>2023-12-20T15:44:15Z</updated>
+    <published>2023-12-20T15:44:15Z</published>
+    <title>Investigating techniques to optimise the layout of turbines in a
+  windfarm using a quantum computer</title>
+    <summary>  We study the optimal placement of wind turbines within a windfarm to maximize
+the power produced by mapping the system to a Quadratic Unconstrained Binary
+Optimisation (QUBO) problem. We investigate solving the resulting QUBO problem
+using the Variational Quantum Eigensolver (VQE) on a quantum computer simulator
+and compare the results to those from two classical optimisation methods:
+simulated annealing and the Gurobi solver. The maximum grid size we study is 4
+$\times$ 4, which requires 16 qubits.
+</summary>
+    <author>
+      <name>James Hancock</name>
+    </author>
+    <author>
+      <name>Matthew J. Craven</name>
+    </author>
+    <author>
+      <name>Craig McNeile</name>
+    </author>
+    <author>
+      <name>Davide Vadacchino</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13123v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13123v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13111v1</id>
+    <updated>2023-12-20T15:30:55Z</updated>
+    <published>2023-12-20T15:30:55Z</published>
+    <title>State Expansion of a Levitated Nanoparticle in a Dark Harmonic Potential</title>
+    <summary>  Levitated nanoparticles in vacuum are prime candidates for generating
+macroscopic quantum superposition states of massive objects. Most protocols for
+preparing these states necessitate coherent expansion beyond the scale of the
+zero-point motion to produce sufficiently delocalized and pure phase-space
+distributions. Here, we spatially expand and subsequently recontract the
+thermal state of a levitated nanoparticle by modifying the stiffness of the
+trap holding the particle. We achieve state-expansion factors of 25 in standard
+deviation for a particle initially feedback-cooled to a center-of-mass thermal
+state of \SI{155}{\milli\kelvin}. Our method relies on a hybrid scheme
+combining an optical trap, for cooling and measuring the particle's motion,
+with a Paul trap for expanding its state. Consequently, state expansion occurs
+devoid of measurement backaction from photon recoil, making this approach
+suitable for coherent wavefunction expansion in future experiments.
+</summary>
+    <author>
+      <name>Eric Bonvin</name>
+    </author>
+    <author>
+      <name>Louisiane Devaud</name>
+    </author>
+    <author>
+      <name>Massimiliano Rossi</name>
+    </author>
+    <author>
+      <name>Andrei Militaru</name>
+    </author>
+    <author>
+      <name>Lorenzo Dania</name>
+    </author>
+    <author>
+      <name>Dmitry S. Bykov</name>
+    </author>
+    <author>
+      <name>Oriol Romero-Isart</name>
+    </author>
+    <author>
+      <name>Tracy E. Northup</name>
+    </author>
+    <author>
+      <name>Lukas Novotny</name>
+    </author>
+    <author>
+      <name>Martin Frimmer</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13111v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13111v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13063v1</id>
+    <updated>2023-12-20T14:42:05Z</updated>
+    <published>2023-12-20T14:42:05Z</published>
+    <title>Microscopic theory of exciton-polariton model involving multiple
+  molecules: Macroscopic quantum electrodynamics formulation and essence of
+  direct intermolecular interactions</title>
+    <summary>  Cavity quantum electrodynamics (CQED) and its extensions are widely used for
+the description of exciton-polariton systems. However, the exciton-polariton
+models based on CQED vary greatly within different contexts. One of the most
+significant discrepancies among these CQED models is whether one should include
+direct intermolecular interactions in the CQED Hamiltonian. To answer this
+question, in this article, we derive an effective dissipative CQED model
+including free-space dipole-dipole interactions (CQED-DDI) from a microscopic
+Hamiltonian based on macroscopic quantum electrodynamics. Dissipative CQED-DDI
+successfully captures the nature of vacuum fluctuations in dielectric media and
+separates it into the free-space effects and the dielectric-induced effects.
+The former include spontaneous emissions, dephasings and dipole-dipole
+interactions in free space; the latter include exciton-polariton interactions
+and photonic losses due to dielectric media. We apply dissipative CQED-DDI to
+investigate the exciton-polariton dynamics (the population dynamics of
+molecules above a plasmonic surface) and compare the results with those based
+on the methods proposed by several previous studies. We find that direct
+intermolecular interactions are a crucial element when employing CQED-like
+models to study exciton-polariton systems involving multiple molecules.
+</summary>
+    <author>
+      <name>Yi-Ting Chuang</name>
+    </author>
+    <author>
+      <name>Liang-Yan Hsu</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13063v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13063v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13037v1</id>
+    <updated>2023-12-20T14:02:42Z</updated>
+    <published>2023-12-20T14:02:42Z</published>
+    <title>Quantum Observables of Quantized Fluxes</title>
+    <summary>  While it has become widely appreciated that defining (higher) gauge theories
+requires, in addition to ordinary phase space data, also "flux quantization"
+laws in generalized differential cohomology, there has been little discussion
+of the general rules, if any, for lifting Poisson-brackets of
+(flux-)observables and their quantization from traditional phase spaces to the
+resulting higher moduli stacks of flux-quantized gauge fields.
+  In this short note, we present a systematic analysis of (i) the canonical
+quantization of flux observables in Yang-Mills theory and (ii) of valid flux
+quantization laws in abelian Yang-Mills, observing (iii) that the resulting
+topological quantum observables form the homology Pontrjagin algebra of the
+loop space of the moduli space of flux-quantized gauge fields.
+  This is remarkable because the homology Ponrjagin algebra on loops of moduli
+makes immediate sense in broad generality for higher and non-abelian
+(non-linearly coupled) gauge fields, such as for the C-field in 11d
+supergravity, where it recovers the quantum effects previously discussed in the
+context of "Hypothesis H".
+</summary>
+    <author>
+      <name>Hisham Sati</name>
+    </author>
+    <author>
+      <name>Urs Schreiber</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13037v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13037v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13036v1</id>
+    <updated>2023-12-20T14:00:41Z</updated>
+    <published>2023-12-20T14:00:41Z</published>
+    <title>Quantum State Compression Shadow</title>
+    <summary>  Quantum state readout serves as the cornerstone of quantum information
+processing, exerting profound influence on quantum communication, computation,
+and metrology. In this study, we introduce an innovative readout architecture
+called Compression Shadow (CompShadow), which transforms the conventional
+readout paradigm by compressing multi-qubit states into single-qubit shadows
+before measurement. Compared to direct measurements of the initial quantum
+states, CompShadow achieves comparable accuracy in amplitude and observable
+expectation estimation while consuming similar measurement resources.
+Furthermore, its implementation on near-term quantum hardware with
+nearest-neighbor coupling architectures is straightforward. Significantly,
+CompShadow brings forth novel features, including the complete suppression of
+correlated readout noise, fundamentally reducing the quantum hardware demands
+for readout. It also facilitates the exploration of multi-body system
+properties through single-qubit probes and opens the door to designing quantum
+communication protocols with exponential loss suppression. Our findings mark
+the emergence of a new era in quantum state readout, setting the stage for a
+revolutionary leap in quantum information processing capabilities.
+</summary>
+    <author>
+      <name>Chen Ding</name>
+    </author>
+    <author>
+      <name>Xiao-Yue Xu</name>
+    </author>
+    <author>
+      <name>Shuo Zhang</name>
+    </author>
+    <author>
+      <name>Wan-Su Bao</name>
+    </author>
+    <author>
+      <name>He-Liang Huang</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13036v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13036v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13020v1</id>
+    <updated>2023-12-20T13:40:17Z</updated>
+    <published>2023-12-20T13:40:17Z</published>
+    <title>Quantum multi-anomaly detection</title>
+    <summary>  A source assumed to prepare a specified reference state sometimes prepares an
+anomalous one. We address the task of identifying these anomalous states in a
+series of $n$ preparations with $k$ anomalies. We analyse the minimum-error
+protocol and the zero-error (unambiguous) protocol and obtain closed
+expressions for the success probability when both reference and anomalous
+states are known to the observer and anomalies can appear equally likely in any
+position of the preparation series. We find the solution using results from
+association schemes theory. In particular we use the Johnson association scheme
+which arises naturally from the Gram matrix of this problem. We also study the
+regime of large $n$ and obtain the expression of the success probability that
+is non-vanishing. Finally, we address the case in which the observer is blind
+to the reference and the anomalous states. This scenario requires an universal
+protocol for which we prove that in the asymptotic limit the success
+probability correspond to average of the known state scenario.
+</summary>
+    <author>
+      <name>Santiago Llorens</name>
+    </author>
+    <author>
+      <name>Gael Sentís</name>
+    </author>
+    <author>
+      <name>Ramon Muñoz-Tapia</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 4 figures, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.13020v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13020v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13003v1</id>
+    <updated>2023-12-20T13:10:17Z</updated>
+    <published>2023-12-20T13:10:17Z</published>
+    <title>Spectrality in convex sequential effect algebras</title>
+    <summary>  For convex and sequential effect algebras, we study spectrality in the sense
+of Foulis. We show that under additional conditions (strong archimedeanity,
+closedness in norm and a certain monotonicity property of the sequential
+product), such effect algebra is spectral if and only if every maximal
+commutative subalgebra is monotone $\sigma$-complete. Two previous results on
+existence of spectral resolutions in this setting are shown to require stronger
+assumptions.
+</summary>
+    <author>
+      <name>Anna Jenčová</name>
+    </author>
+    <author>
+      <name>Sylvia Pulmannová</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10773-023-05431-8</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10773-023-05431-8" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages. arXiv admin note: text overlap with arXiv:2111.02166</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Int J Theor Phys 62, 193 (2023)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.13003v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13003v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12986v1</id>
+    <updated>2023-12-20T12:44:35Z</updated>
+    <published>2023-12-20T12:44:35Z</published>
+    <title>Quadrature squeezing enhances Wigner negativity in a mechanical Duffing
+  oscillator</title>
+    <summary>  Generating macroscopic non-classical quantum states is a long-standing
+challenge in physics. Anharmonic dynamics is an essential ingredient to
+generate these states, but for large mechanical systems, the effect of the
+anharmonicity tends to become negligible compared to decoherence. As a possible
+solution to this challenge, we propose to use a motional squeezed state as a
+resource to effectively enhance the anharmonicity. We analyze the production of
+negativity in the Wigner distribution of a quantum anharmonic resonator
+initially in a squeezed state. We find that initial squeezing enhances the rate
+at which negativity is generated. We also analyze the effect of two common
+sources of decoherence, namely energy damping and dephasing, and find that the
+detrimental effects of energy damping are suppressed by strong squeezing. In
+the limit of large squeezing, which is needed for state-of-the-art systems, we
+find good approximations for the Wigner function. Our analysis is significant
+for current experiments attempting to prepare macroscopic mechanical systems in
+genuine quantum states. We provide an overview of several experimental
+platforms featuring nonlinear behaviors and low levels of decoherence. In
+particular, we discuss the feasibility of our proposal with carbon nanotubes
+and levitated nanoparticles.
+</summary>
+    <author>
+      <name>Christian A. Rosiek</name>
+    </author>
+    <author>
+      <name>Massimiliano Rossi</name>
+    </author>
+    <author>
+      <name>Albert Schliesser</name>
+    </author>
+    <author>
+      <name>Anders S. Sørensen</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12986v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12986v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14190v1</id>
+    <updated>2023-12-20T12:40:00Z</updated>
+    <published>2023-12-20T12:40:00Z</published>
+    <title>Machine Learning for Anomaly Detection in Particle Physics</title>
+    <summary>  The detection of out-of-distribution data points is a common task in particle
+physics. It is used for monitoring complex particle detectors or for
+identifying rare and unexpected events that may be indicative of new phenomena
+or physics beyond the Standard Model. Recent advances in Machine Learning for
+anomaly detection have encouraged the utilization of such techniques on
+particle physics problems. This review article provides an overview of the
+state-of-the-art techniques for anomaly detection in particle physics using
+machine learning. We discuss the challenges associated with anomaly detection
+in large and complex data sets, such as those produced by high-energy particle
+colliders, and highlight some of the successful applications of anomaly
+detection in particle physics experiments.
+</summary>
+    <author>
+      <name>Vasilis Belis</name>
+    </author>
+    <author>
+      <name>Patrick Odagiu</name>
+    </author>
+    <author>
+      <name>Thea Klæboe Årrestad</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Invited review article, Reviews in Physics</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.14190v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.14190v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12974v1</id>
+    <updated>2023-12-20T12:31:29Z</updated>
+    <published>2023-12-20T12:31:29Z</published>
+    <title>Nanoparticle Interferometer by Throw and Catch</title>
+    <summary>  Matter-wave interferometry with increasingly larger masses could pave the way
+to understanding the nature of wavefunction collapse, the quantum to classical
+transition or even how an object in a spatial superposition interacts with its
+gravitational field. In order to improve upon the current mass record, it is
+necessary to move into the nano-particle regime. In this paper we provide a
+design for a nano-particle Talbot-Lau matter-wave interferometer that
+circumvents the practical challenges of previously proposed designs. We present
+simulations of the expected fringe patterns that such an interferometer would
+produce, considering all major sources of decoherence. We discuss the practical
+challenges involved in building such an experiment as well as some preliminary
+experimental results to illustrate the proposed measurement scheme. We show
+that such a design is suitable for seeing interference fringes with $10^6$amu
+SiO$_2$ particles, and that this design can be extended to even $10^8$amu
+particles by using flight times below the typical Talbot time of the system.
+</summary>
+    <author>
+      <name>Jakub Wardak</name>
+    </author>
+    <author>
+      <name>Tiberius Georgescu</name>
+    </author>
+    <author>
+      <name>Giulio Gasbarri</name>
+    </author>
+    <author>
+      <name>Alessio Belenchia</name>
+    </author>
+    <author>
+      <name>Hendrik Ulbricht</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12974v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12974v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12956v1</id>
+    <updated>2023-12-20T11:55:05Z</updated>
+    <published>2023-12-20T11:55:05Z</published>
+    <title>Restrictions to realize multiport quantum dense coding in a many-body
+  quantum spin system with two- and three-body interactions</title>
+    <summary>  Quantum information with many-body quantum spin systems has, from time to
+time, given intriguing and intuitive outcomes to our understanding of multiport
+quantum communications. We identify that in an anisotropic many-body quantum
+spin system with two- and three-body interactions, when its two-spin subsystems
+are all negative under partial transpose, one can restrict this system for
+realizing only the multiport quantum dense coding protocol which has $(N-1)$
+senders and a single receiver. All other single and multi channel dense coding
+protocols will have quantum dense coding capacities less than that of their
+respective classical capacities. We characterize the multiport quantum dense
+coding capacity with $(N-1)$ senders and a single receiver for this system with
+respect to its system parameters. We also define a magnetic field averaged
+dense coding capacity for this system, which allows us to comprehensively
+capture the influence of the entire range of external applied magnetic field
+and characterize its variation with respect to other system parameters.
+</summary>
+    <author>
+      <name>P. Kiran</name>
+    </author>
+    <author>
+      <name>Hemant Shreepad Hegde</name>
+    </author>
+    <author>
+      <name>Harsha Miriam Reji</name>
+    </author>
+    <author>
+      <name>R. Prabhu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 5 figures, RevTeX4-2</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12956v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12956v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12941v1</id>
+    <updated>2023-12-20T11:37:12Z</updated>
+    <published>2023-12-20T11:37:12Z</published>
+    <title>Order-by-disorder in the antiferromagnetic long-range transverse-field
+  Ising model on the ruby lattice</title>
+    <summary>  We demonstrate that geometric frustration and long-range interactions both
+promote order-by-disorder in the antiferromagnetic transverse-field Ising model
+on the ruby lattice. To this end we investigate the quantum phase diagram for
+truncated $J_1$-$J_2$-$J_3$ Ising interactions. In the low-field limit we
+derive an effective quantum dimer model, analyzing how the extensive
+ground-state degeneracy at zero field is lifted by two distinct
+order-by-disorder scenarios. We support our analysis by studying the
+gap-closing of the high-field phase using series expansions. For $J_2&gt;J_3$, we
+find an emergent clock-ordered phase at low fields, stabilized by resonating
+plaquettes, and a 3d-XY quantum phase transition to the polarized high-field
+phase. For $J_3&gt;J_2$, an order-by-disorder mechanism stabilizes a distinct
+$k=(0,0)$ order and a quantum phase transition in the 3d-Ising universality
+class is observed. In contrast to the triangular lattice, on the ruby lattice
+algebraically decaying long-range interactions favor the clock-ordered
+low-field phase and therefore allow a robust implementation in existing Rydberg
+atom quantum simulators.
+</summary>
+    <author>
+      <name>A. Duft</name>
+    </author>
+    <author>
+      <name>J. A. Koziol</name>
+    </author>
+    <author>
+      <name>P. Adelhardt</name>
+    </author>
+    <author>
+      <name>M. Mühlhauser</name>
+    </author>
+    <author>
+      <name>K. P. Schmidt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 16 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12941v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12941v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -14,44 +14,46 @@ public static class ArxivHelper
         var httpResponse = await httpClient.GetAsync(feedUrl);
 
         Feed feed = null;
-        if (httpResponse.IsSuccessStatusCode)
+        if (!httpResponse.IsSuccessStatusCode) return feed;
+
+        // alternative local variant for demo purposes, in case Arxiv is down
+        //var xmlContent = File.ReadAllText("../../offline/arxiv-qc-20231218.xml");
+        
+        var xmlContent = await httpResponse.Content.ReadAsStringAsync();
+        var xDoc = XDocument.Parse(xmlContent);
+        
+        var ns = XNamespace.Get("http://www.w3.org/2005/Atom");
+        var opensearch = XNamespace.Get("http://a9.com/-/spec/opensearch/1.1/");
+        var arxiv = XNamespace.Get("http://arxiv.org/schemas/atom");
+        var feedElement = xDoc.Element(ns + "feed");
+
+        feed = new Feed
         {
-            var ns = XNamespace.Get("http://www.w3.org/2005/Atom");
-            var opensearch = XNamespace.Get("http://a9.com/-/spec/opensearch/1.1/");
-            var arxiv = XNamespace.Get("http://arxiv.org/schemas/atom");
-
-            var xmlContent = await httpResponse.Content.ReadAsStringAsync();
-            var xDoc = XDocument.Parse(xmlContent);
-            var feedElement = xDoc.Element(ns + "feed");
-
-            feed = new Feed
+            Title = (string)feedElement.Element(ns + "title"),
+            Id = (string)feedElement.Element(ns + "id"),
+            Updated = (DateTime)feedElement.Element(ns + "updated"),
+            TotalResults = (int)feedElement.Element(opensearch + "totalResults"),
+            StartIndex = (int)feedElement.Element(opensearch + "startIndex"),
+            ItemsPerPage = (int)feedElement.Element(opensearch + "itemsPerPage"),
+            Entries = feedElement.Elements(ns + "entry").Select(entryElement => new Entry
             {
-                Title = (string)feedElement.Element(ns + "title"),
-                Id = (string)feedElement.Element(ns + "id"),
-                Updated = (DateTime)feedElement.Element(ns + "updated"),
-                TotalResults = (int)feedElement.Element(opensearch + "totalResults"),
-                StartIndex = (int)feedElement.Element(opensearch + "startIndex"),
-                ItemsPerPage = (int)feedElement.Element(opensearch + "itemsPerPage"),
-                Entries = feedElement.Elements(ns + "entry").Select(entryElement => new Entry
+                Id = ((string)entryElement.Element(ns + "id")).Split(".").Last()[..^2],
+                Updated = (DateTime)entryElement.Element(ns + "updated"),
+                Published = (DateTime)entryElement.Element(ns + "published"),
+                Title = (string)entryElement.Element(ns + "title"),
+                Summary = (string)entryElement.Element(ns + "summary"),
+                Authors = entryElement.Elements(ns + "author").Select(authorElement => new Author
                 {
-                    Id = ((string)entryElement.Element(ns + "id")).Split(".").Last()[..^2],
-                    Updated = (DateTime)entryElement.Element(ns + "updated"),
-                    Published = (DateTime)entryElement.Element(ns + "published"),
-                    Title = (string)entryElement.Element(ns + "title"),
-                    Summary = (string)entryElement.Element(ns + "summary"),
-                    Authors = entryElement.Elements(ns + "author").Select(authorElement => new Author
-                    {
-                        Name = (string)authorElement.Element(ns + "name")
-                    }).ToList(),
-                    PdfLink = entryElement.Elements(ns + "link")
-                        .FirstOrDefault(link => (string)link.Attribute("title") == "pdf")?.Attribute("href")?.Value,
-                    PrimaryCategory =
-                        (string)entryElement.Element(arxiv + "primary_category")?.Attribute("term")?.Value,
-                    Categories = entryElement.Elements(ns + "category")
-                        .Select(category => (string)category.Attribute("term")).ToList()
-                }).ToList()
-            };
-        }
+                    Name = (string)authorElement.Element(ns + "name")
+                }).ToList(),
+                PdfLink = entryElement.Elements(ns + "link")
+                    .FirstOrDefault(link => (string)link.Attribute("title") == "pdf")?.Attribute("href")?.Value,
+                PrimaryCategory =
+                    (string)entryElement.Element(arxiv + "primary_category")?.Attribute("term")?.Value,
+                Categories = entryElement.Elements(ns + "category")
+                    .Select(category => (string)category.Attribute("term")).ToList()
+            }).ToList()
+        };
 
         return feed;
     }

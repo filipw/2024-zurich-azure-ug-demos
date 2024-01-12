@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dcat%3Aquant-ph%20AND%20submittedDate%3A%5B202312190000%20TO%20202312192359%5D%26id_list%3D%26start%3D0%26max_results%3D40" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=cat:quant-ph AND submittedDate:[202312190000 TO 202312192359]&amp;id_list=&amp;start=0&amp;max_results=40</title>
+  <id>http://arxiv.org/api/UMtXsyvZWaWrQ7Ugb3nFYzOwphI</id>
+  <updated>2024-01-12T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">41</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">40</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12643v1</id>
+    <updated>2023-12-19T22:39:07Z</updated>
+    <published>2023-12-19T22:39:07Z</published>
+    <title>Quantifying the magnetic noise power spectrum for ensembles of P1 and NV
+  centers in diamond</title>
+    <summary>  We use Carr-Purcell-Meiboom-Gill (CPMG) dynamical decoupling to measure the
+magnetic noise power spectra for ensembles of P1 and NV centers in diamond
+using pulsed electron paramagnetic resonance (pEPR) at 2.5 GHz. The
+stroboscopically detected pEPR experiments on NV centers were performed on an
+HPHT (high pressure, high temperature) diamond sample at 13 mT and 190 mT,
+while the experiments on P1 centers were performed on a CVD (chemical vapor
+deposition) diamond sample at 89 mT. All power spectra show two distinct
+features, a broad component that is observed to scale as approximately
+$1/\omega$, and a prominent peak at the $^{13}$C Larmor precession frequency.
+The broad $1/\omega$ behavior is consistent with an inhomogeneous distribution
+of Lorentzian spectra due to clustering of P1 centers, which has recently been
+shown to be prevalent in HPHT diamond. However, it is unknown if such
+clustering occurs in CVD diamond. The maximum rate at which we can apply $\pi$
+pulses is higher than the $^{13}$C frequency at 13 mT, but is lower than the
+$^{13}$C frequency at 89 mT and 190 mT. We develop techniques that utilize the
+higher harmonics of the CPMG filter function to improve our estimate of the
+$^{13}$C contribution to the power spectrum at the higher fields. Surprisingly,
+the $^{13}$C peak, when measured with higher harmonics of the CPMG filter,
+appears larger than expected based on measurements with the lower harmonics. We
+assess the robustness of our methods in the presence of finite pulse widths and
+flip angle errors. These techniques could be used in a variety of ac
+magnetometry and noise spectroscopy measurements such as chemical sensing and
+nanoscale nuclear magnetic resonance.
+</summary>
+    <author>
+      <name>Ethan Q. Williams</name>
+    </author>
+    <author>
+      <name>Chandrasekhar Ramanathan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 20 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12643v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12643v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12614v1</id>
+    <updated>2023-12-19T21:38:10Z</updated>
+    <published>2023-12-19T21:38:10Z</published>
+    <title>Making Existing Quantum Position Verification Protocols Secure Against
+  Arbitrary Transmission Loss</title>
+    <summary>  Signal loss poses a significant threat to the security of quantum
+cryptography when the chosen protocol lacks loss-tolerance. In quantum position
+verification (QPV) protocols, even relatively small loss rates can compromise
+security. The goal is thus to find protocols that remain secure under
+practically achievable loss rates. In this work, we modify the usual structure
+of QPV protocols and prove that this modification makes the potentially high
+transmission loss between the verifiers and the prover security-irrelevant for
+a class of protocols that includes a practically-interesting candidate protocol
+inspired by the BB84 protocol ($\mathrm{QPV}_{\mathrm{BB84}}^{f}$). This
+modification, which involves photon presence detection, a small time delay at
+the prover, and a commitment to play before proceeding, reduces the overall
+loss rate to just the prover's laboratory. The adapted protocol
+c-$\mathrm{QPV}_{\mathrm{BB84}}^{f}$ then becomes a practically feasible QPV
+protocol with strong security guarantees, even against attackers using adaptive
+strategies. As the loss rate between the verifiers and prover is mainly
+dictated by the distance between them, secure QPV over longer distances becomes
+possible. We also show possible implementations of the required photon presence
+detection, making c-$\mathrm{QPV}_{\mathrm{BB84}}^{f}$ a protocol that solves
+all major practical issues in QPV. Finally, we discuss experimental aspects and
+give parameter estimations.
+</summary>
+    <author>
+      <name>Rene Allerstorfer</name>
+    </author>
+    <author>
+      <name>Andreas Bluhm</name>
+    </author>
+    <author>
+      <name>Harry Buhrman</name>
+    </author>
+    <author>
+      <name>Matthias Christandl</name>
+    </author>
+    <author>
+      <name>Llorenç Escolà-Farràs</name>
+    </author>
+    <author>
+      <name>Florian Speelman</name>
+    </author>
+    <author>
+      <name>Philip Verduyn Lunel</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12614v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12614v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12613v1</id>
+    <updated>2023-12-19T21:36:07Z</updated>
+    <published>2023-12-19T21:36:07Z</published>
+    <title>Toward coherent quantum computation of scattering amplitudes with a
+  measurement-based photonic quantum processor</title>
+    <summary>  In recent years, applications of quantum simulation have been developed to
+study properties of strongly interacting theories. This has been driven by two
+factors: on the one hand, needs from theorists to have access to physical
+observables that are prohibitively difficult to study using classical
+computing; on the other hand, quantum hardware becoming increasingly reliable
+and scalable to larger systems. In this work, we discuss the feasibility of
+using quantum optical simulation for studying scattering observables that are
+presently inaccessible via lattice QCD and are at the core of the experimental
+program at Jefferson Lab, the future Electron-Ion Collider, and other
+accelerator facilities. We show that recent progress in measurement-based
+photonic quantum computing can be leveraged to provide deterministic generation
+of required exotic gates and implementation in a single photonic quantum
+processor.
+</summary>
+    <author>
+      <name>Raúl A. Briceño</name>
+    </author>
+    <author>
+      <name>Robert G. Edwards</name>
+    </author>
+    <author>
+      <name>Miller Eaton</name>
+    </author>
+    <author>
+      <name>Carlos González-Arciniegas</name>
+    </author>
+    <author>
+      <name>Olivier Pfister</name>
+    </author>
+    <author>
+      <name>George Siopsis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12613v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12613v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12609v1</id>
+    <updated>2023-12-19T21:29:45Z</updated>
+    <published>2023-12-19T21:29:45Z</published>
+    <title>Three-photon electron spin resonances</title>
+    <summary>  We report the observation of a three-photon resonant transition of
+charge-carrier spins in an organic light-emitting diode using electrically
+detected magnetic resonance (EDMR) spectroscopy at room temperature. Under
+strong magnetic-resonant drive (drive field $B_1$ ~ static magnetic field
+$B_0$), a $B_0$-field swept EDMR line emerges when $B_0$ is approximately
+threefold the one-photon resonance field. Ratios of drive-induced shifts of
+this line to those of two- and one-photon shifts agree with analytical
+expressions derived from the Floquet Hamiltonian and confirm the nature of
+these three-photon transitions, enabling access of spin physics to a hitherto
+inaccessible domain of quantum mechanics.
+</summary>
+    <author>
+      <name>S. I. Atwood</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. V. Mkhitaryan</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Institut für Experimentelle und Angewandte Physik, Universität Regensburg, Regensburg, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Dhileepkumar</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Nuibe</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Hosseinzadeh</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Malissa</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Institut für Experimentelle und Angewandte Physik, Universität Regensburg, Regensburg, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. M. Lupton</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Institut für Experimentelle und Angewandte Physik, Universität Regensburg, Regensburg, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Boehme</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Physics and Astronomy, University of Utah, Salt Lake City, USA</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 18 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12609v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12609v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12593v2</id>
+    <updated>2023-12-29T14:33:59Z</updated>
+    <published>2023-12-19T20:41:14Z</published>
+    <title>Spread complexity in saddle-dominated scrambling</title>
+    <summary>  Recently, the concept of spread complexity, Krylov complexity for states, has
+been introduced as a measure of the complexity and chaoticity of quantum
+systems. In this paper, we study the spread complexity of the thermofield
+double state within \emph{integrable} systems that exhibit saddle-dominated
+scrambling. Specifically, we focus on the Lipkin-Meshkov-Glick model and the
+inverted harmonic oscillator as representative examples of quantum mechanical
+systems featuring saddle-dominated scrambling. Applying the Lanczos algorithm,
+our numerical investigation reveals that the spread complexity in these systems
+exhibits features reminiscent of \emph{chaotic} systems, displaying a
+distinctive ramp-peak-slope-plateau pattern. Our results indicate that,
+although spread complexity serves as a valuable probe, accurately diagnosing
+true quantum chaos generally necessitates additional physical input. We also
+explore the relationship between spread complexity, the spectral form factor,
+and the transition probability within the Krylov space. We provide analytical
+confirmation of our numerical results, validating the Ehrenfest theorem of
+complexity and identifying a distinct quadratic behavior in the early-time
+regime of spread complexity.
+</summary>
+    <author>
+      <name>Kyoung-Bum Huh</name>
+    </author>
+    <author>
+      <name>Hyun-Sik Jeong</name>
+    </author>
+    <author>
+      <name>Juan F. Pedraza</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v1: 27 pages, 17 figures; v2: references added</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12593v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12593v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13300v1</id>
+    <updated>2023-12-19T20:29:45Z</updated>
+    <published>2023-12-19T20:29:45Z</published>
+    <title>Contextual Measurement Model and Quantum Theory</title>
+    <summary>  We develop the contextual measurement model (CMM) which is used for
+clarification of the quantum foundations. This model matches with Bohr's views
+on the role of experimental contexts. CMM is based on contextual probability
+theory which is connected with generalized probability theory. CMM covers
+measurements in classical, quantum, and semi-classical physics. The CMM
+formalism is illustrated by a few examples. We consider CMM framing of
+classical probability, the von Neumann measurement theory, the quantum
+instrument theory. CMM can also be applied outside of physics, in cognition,
+decision making, and psychology, so called quantum-like modeling.
+</summary>
+    <author>
+      <name>Andrei Khrennikov</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.13300v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.13300v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12537v1</id>
+    <updated>2023-12-19T19:14:08Z</updated>
+    <published>2023-12-19T19:14:08Z</published>
+    <title>Quantum steering ellipsoids and quantum obesity in critical systems</title>
+    <summary>  Quantum obesity (QO) is new function used to quantify quantum correlations
+beyond entanglement, which also works as a witness for entanglement. Thanks to
+its analyticity for arbitrary state of bipartite systems, it represents an
+advantage with respect to other quantum correlations, like quantum discord for
+example. In this work we show that QO is a fundamental quantity to observe
+signature of quantum phase transitions. We also describe a mechanism based on
+local filtering operations able to intensify the critical behavior of the QO
+near to the transition point. To this end, we introduce a theorem stating how
+QO changes under local quantum operations and classical communications. This
+work opens perspective for the characterization of new phenomena in quantum
+critical systems through the analytically computable pairwise QO.
+</summary>
+    <author>
+      <name>Pedro Rosario</name>
+    </author>
+    <author>
+      <name>Alan C. Santos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages and 3 figures. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12537v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12537v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12513v1</id>
+    <updated>2023-12-19T19:00:04Z</updated>
+    <published>2023-12-19T19:00:04Z</published>
+    <title>Entropy production in the mesoscopic-leads formulation of quantum
+  thermodynamics</title>
+    <summary>  Understanding the entropy production of systems strongly coupled to thermal
+baths is a core problem of both quantum thermodynamics and mesoscopic physics.
+While there exist many techniques to accurately study entropy production in
+such systems, they typically require a microscopic description of the baths,
+which can become numerically intractable to study for large systems.
+Alternatively an open-systems approach can be employed with all the nuances
+associated with various levels of approximation. Recently, the mesoscopic leads
+approach has emerged as a powerful method for studying such quantum systems
+strongly coupled to multiple thermal baths. In this method, a set of
+discretised lead modes, each locally damped, provide a Markovian embedding.
+Here we show that this method proves extremely useful to describe entropy
+production of a strongly coupled open quantum system. We show numerically, for
+both non-interacting and interacting setups, that a system coupled to a single
+bath exhibits a thermal fixed point at the level of the embedding. This allows
+us to use various results from the thermodynamics of quantum dynamical
+semi-groups to infer the non-equilibrium thermodynamics of the strongly
+coupled, non-Markovian central systems. In particular, we show that the entropy
+production in the transient regime recovers the well established microscopic
+definitions of entropy production with a correction that can be computed
+explicitly for both the single- and multiple-lead cases.
+</summary>
+    <author>
+      <name>Artur Lacerda</name>
+    </author>
+    <author>
+      <name>Michael J. Kewming</name>
+    </author>
+    <author>
+      <name>Marlon Brenes</name>
+    </author>
+    <author>
+      <name>Conor Jackson</name>
+    </author>
+    <author>
+      <name>Stephen R. Clark</name>
+    </author>
+    <author>
+      <name>Mark T. Mitchison</name>
+    </author>
+    <author>
+      <name>John Goold</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v1: 11 pages, 6 figures, comments welcome as always!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12513v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12513v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12506v1</id>
+    <updated>2023-12-19T19:00:02Z</updated>
+    <published>2023-12-19T19:00:02Z</published>
+    <title>Hamiltonian truncation tensor networks for quantum field theories</title>
+    <summary>  Understanding the equilibrium properties and out of equilibrium dynamics of
+quantum field theories are key aspects of fundamental problems in theoretical
+particle physics and cosmology. However, their classical simulation is highly
+challenging. In this work, we introduce a tensor network method for the
+classical simulation of continuous quantum field theories that is suitable for
+the study of low-energy eigenstates and out-of-equilibrium time evolution. The
+method is built on Hamiltonian truncation and tensor network techniques,
+bridging the gap between two successful approaches. One of the key developments
+is the exact construction of matrix product state representations of global
+projectors, crucial for the implementation of interacting theories. Despite
+featuring a relatively high computational effort, our method dramatically
+improves predictive precision compared to exact diagonalisation-based
+Hamiltonian truncation, allowing the study of so far unexplored parameter
+regimes and dynamical effects. We corroborate trust in the accuracy of the
+method by comparing it with exact theoretical results for ground state
+properties of the sine-Gordon model. We then proceed with discussing
+$(1+1)$-dimensional quantum electrodynamics, the massive Schwinger model, for
+which we accurately locate its critical point and study the growth and
+saturation of momentum-space entanglement in sudden quenches.
+</summary>
+    <author>
+      <name>Philipp Schmoll</name>
+    </author>
+    <author>
+      <name>Jan Naumann</name>
+    </author>
+    <author>
+      <name>Alexander Nietner</name>
+    </author>
+    <author>
+      <name>Jens Eisert</name>
+    </author>
+    <author>
+      <name>Spyros Sotiriadis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 14 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12506v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12506v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12509v1</id>
+    <updated>2023-12-19T19:00:02Z</updated>
+    <published>2023-12-19T19:00:02Z</published>
+    <title>The entanglement membrane in exactly solvable lattice models</title>
+    <summary>  Entanglement membrane theory is an effective coarse-grained description of
+entanglement dynamics and operator growth in chaotic quantum many-body systems.
+The fundamental quantity characterizing the membrane is the entanglement line
+tension. However, determining the entanglement line tension for microscopic
+models is in general exponentially difficult. We compute the entanglement line
+tension in a recently introduced class of exactly solvable yet chaotic unitary
+circuits, so-called generalized dual-unitary circuits, obtaining a non-trivial
+form that gives rise to a hierarchy of velocity scales with $v_E&lt;v_B$. We find
+that these circuits saturate certain bounds on entanglement growth that are
+also saturated in holographic models. Furthermore, we relate the entanglement
+line tension to temporal entanglement and correlation functions. We also find
+new methods of constructing generalized dual-unitary gates beyond qubits that
+display behavior unique to local dimension $\geq3$. Our results shed light on
+entanglement membrane theory in microscopic Floquet lattice models and enable
+us to perform non-trivial checks on the validity of its predictions by
+comparison to exact and numerical calculations.
+</summary>
+    <author>
+      <name>Michael A. Rampp</name>
+    </author>
+    <author>
+      <name>Suhail A. Rather</name>
+    </author>
+    <author>
+      <name>Pieter W. Claeys</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 6 figures + 3 pages of appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12509v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12509v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12427v1</id>
+    <updated>2023-12-19T18:56:03Z</updated>
+    <published>2023-12-19T18:56:03Z</published>
+    <title>Enhancing quantum utility: simulating large-scale quantum spin chains on
+  superconducting quantum computers</title>
+    <summary>  We present the quantum simulation of the frustrated quantum
+spin-$\frac{1}{2}$ antiferromagnetic Heisenberg spin chain with competing
+nearest-neighbor $(J_1)$ and next-nearest-neighbor $(J_2)$ exchange
+interactions in the real superconducting quantum computer with qubits ranging
+up to 100. In particular, we implement, for the first time, the Hamiltonian
+with the next-nearest neighbor exchange interaction in conjunction with the
+nearest neighbor interaction on IBM's superconducting quantum computer and
+carry out the time evolution of the spin chain by employing first-order
+Trotterization. Furthermore, our novel implementation of second-order
+Trotterization for the isotropic Heisenberg spin chain, involving only
+nearest-neighbor exchange interaction, enables precise measurement of the
+expectation values of staggered magnetization observable across a range of up
+to 100 qubits. Notably, in both cases, our approach results in a constant
+circuit depth in each Trotter step, independent of the initial number of
+qubits. Our demonstration of the accurate measurement of expectation values for
+the large-scale quantum system using superconducting quantum computers
+designates the quantum utility of these devices for investigating various
+properties of many-body quantum systems. This will be a stepping stone to
+achieving the quantum advantage over classical ones in simulating quantum
+systems before the fault tolerance quantum era.
+</summary>
+    <author>
+      <name>Talal Ahmed Chowdhury</name>
+    </author>
+    <author>
+      <name>Kwangmin Yu</name>
+    </author>
+    <author>
+      <name>Mahmud Ashraf Shamim</name>
+    </author>
+    <author>
+      <name>M. L. Kabir</name>
+    </author>
+    <author>
+      <name>Raza Sabbir Sufian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages + references, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12427v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12427v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12386v1</id>
+    <updated>2023-12-19T18:18:51Z</updated>
+    <published>2023-12-19T18:18:51Z</published>
+    <title>Quantum Equation of Motion with Orbital Optimization for Computing
+  Molecular Properties in Near-Term Quantum Computing</title>
+    <summary>  Determining the properties of molecules and materials is one of the premier
+applications of quantum computing. A major question in the field is how to use
+imperfect near-term quantum computers to solve problems of practical value.
+Inspired by the recently developed variants of the quantum counterpart of the
+equation-of-motion (qEOM) approach and the orbital-optimized variational
+quantum eigensolver (oo-VQE), we present a quantum algorithm (oo-VQE-qEOM) for
+the calculation of molecular properties by computing expectation values on a
+quantum computer. We perform noise-free quantum simulations of BeH$_2$ in the
+series of STO-3G/6-31G/6-31G* basis sets, H$_4$ and H$_2$O in 6-31G using an
+active space of four electrons and four spatial orbitals (8 qubits) to evaluate
+excitation energies, electronic absorption, and for twisted H$_4$, circular
+dichroism spectra. We demonstrate that the proposed algorithm can reproduce the
+results of conventional classical CASSCF calculations for these molecular
+systems.
+</summary>
+    <author>
+      <name>Phillip W. K. Jensen</name>
+    </author>
+    <author>
+      <name>Erik Rosendahl Kjellgren</name>
+    </author>
+    <author>
+      <name>Peter Reinholdt</name>
+    </author>
+    <author>
+      <name>Karl Michael Ziems</name>
+    </author>
+    <author>
+      <name>Sonia Coriani</name>
+    </author>
+    <author>
+      <name>Jacob Kongsted</name>
+    </author>
+    <author>
+      <name>Stephan P. A. Sauer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17+12 pages, 3 figures, 1 table; comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12386v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12386v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12372v1</id>
+    <updated>2023-12-19T18:04:22Z</updated>
+    <published>2023-12-19T18:04:22Z</published>
+    <title>Frequency-resolved Purcell effect for the dissipative generation of
+  steady-state entanglement</title>
+    <summary>  We report a driven-dissipative mechanism to generate stationary entangled $W$
+states among strongly-interacting quantum emitters placed within a cavity.
+Driving the ensemble into the highest energy state -- whether coherently or
+incoherently -- enables a subsequent cavity-enhanced decay into an entangled
+steady state consisting of a single de-excitation shared coherently among all
+emitters, i.e., a $W$ state, well known for its robustness against qubit loss.
+The non-harmonic energy structure of the interacting ensemble allows this
+transition to be resonantly selected by the cavity, while quenching subsequent
+off-resonant decays. Evidence of this purely dissipative mechanism should be
+observable in state-of-the-art cavity QED systems in the solid-state, enabling
+new prospects for the scalable stabilization of quantum states in dissipative
+quantum platforms.
+</summary>
+    <author>
+      <name>Alejandro Vivas-Viaña</name>
+    </author>
+    <author>
+      <name>Diego Martín-Cano</name>
+    </author>
+    <author>
+      <name>Carlos Sánchez Muñoz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 3 figures, Supplemental Material with 8 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12372v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12372v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12350v1</id>
+    <updated>2023-12-19T17:28:54Z</updated>
+    <published>2023-12-19T17:28:54Z</published>
+    <title>Work and efficiency fluctuations in a quantum Otto cycle with idle
+  levels</title>
+    <summary>  We study the performance of a quantum Otto heat engine with two spins coupled
+by a Heisenberg interaction, taking into account not only the mean values of
+work and efficiency but also their fluctuations. We first show that, for this
+system, the output work and its fluctuations are directly related to the
+magnetization and magnetic susceptibility of the system at equilibrium with
+either heat bath. We analyze the regions where the work extraction can be done
+with low relative fluctuation for a given range of temperatures, while still
+achieving an efficiency higher than that of a single spin system heat engine.
+In particular, we find that, due to the presence of `idle' levels, an increase
+in the inter-spin coupling can either increase or decrease fluctuations,
+depending on the other parameters. In all cases, however, we find that the
+relative fluctuations in work or efficiency remain large, implying that this
+microscopic engine is not very reliable as a source of work.
+</summary>
+    <author>
+      <name>Maron F. Anka</name>
+    </author>
+    <author>
+      <name>Thiago R. de Oliveira</name>
+    </author>
+    <author>
+      <name>Daniel Jonathan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12350v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12350v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12336v1</id>
+    <updated>2023-12-19T17:03:35Z</updated>
+    <published>2023-12-19T17:03:35Z</published>
+    <title>Optical Feedback Loop in Paraxial Fluids of Light: A Gate to new
+  phenomena in analogue physical simulations</title>
+    <summary>  Easily accessible through tabletop experiments based on laser propagation
+inside nonlinear optical media, Paraxial Fluids of Light are emerging as
+promising platforms for the simulation and exploration of quantum-like
+phenomena. In particular, the analogy builds on a formal equivalence between
+the governing model for a Bose-Einstein Condensate under the mean-field
+approximation and the model of laser propagation under the paraxial
+approximation. Yet, the fact that the role of time is played by the propagation
+distance in the optical analogue system may impose strong bounds on the range
+of accessible phenomena due to the limited length of the nonlinear medium. In
+this manuscript, we present a novel experimental approach to solve this
+limitation in the form of an optical feedback loop, which consists of the
+reconstruction of the optical states at the end of the system followed by their
+subsequent re-injection exploiting wavefront shaping techniques. The results
+enclosed demonstrate the potential of this approach to access unprecedented
+dynamics, paving for the observation of novel phenomena in these systems.
+</summary>
+    <author>
+      <name>Tiago D. Ferreira</name>
+    </author>
+    <author>
+      <name>Ariel Guerreiro</name>
+    </author>
+    <author>
+      <name>Nuno A. Silva</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12336v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12336v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12320v1</id>
+    <updated>2023-12-19T16:44:49Z</updated>
+    <published>2023-12-19T16:44:49Z</published>
+    <title>Accurate harmonic vibrational frequencies for diatomic molecules via
+  quantum computing</title>
+    <summary>  During the noisy intermediate-scale quantum (NISQ) era, quantum computational
+approaches refined to overcome the challenge of limited quantum resources are
+highly valuable. However, the accuracy of the molecular properties predicted by
+most of the quantum computations nowadays is still far off (not within chemical
+accuracy) compared to their corresponding experimental data. Here, we propose a
+promising qubit-efficient quantum computational approach to calculate the
+harmonic vibrational frequencies of a large set of neutral closed-shell
+diatomic molecules with results in great agreement with their experimental
+data. To this end, we construct the accurate Hamiltonian using molecular
+orbitals, derived from density functional theory to account for the electron
+correlation and expanded in the Daubechies wavelet basis set to allow an
+accurate representation in real space grid points, where an optimized compact
+active space is further selected so that only a reduced small number of qubits
+is sufficient to yield an accurate result. To justify the approach, we
+benchmark the performance of the Hamiltonians spanned by the selected molecular
+orbitals by first transforming the molecular Hamiltonians into qubit
+Hamiltonians and then using the exact diagonalization method to calculate the
+results, regarded as the best results achievable by quantum computation.
+Furthermore, we show that the variational quantum circuit with the
+chemistry-inspired UCCSD ansatz can achieve the same accuracy as the exact
+diagonalization method except for systems whose Mayer bond order indices are
+larger than 2. For those systems, we demonstrate that the heuristic
+hardware-efficient RealAmplitudes ansatz, even with a shorter circuit depth,
+can provide a significant improvement over the UCCSD ansatz, verifying that the
+harmonic vibrational frequencies could be calculated accurately by quantum
+computation in the NISQ era.
+</summary>
+    <author>
+      <name>Shih-Kai Chou</name>
+    </author>
+    <author>
+      <name>Jyh-Pin Chou</name>
+    </author>
+    <author>
+      <name>Alice Hu</name>
+    </author>
+    <author>
+      <name>Yuan-Chung Cheng</name>
+    </author>
+    <author>
+      <name>Hsi-Sheng Goan</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevResearch.5.043216</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevResearch.5.043216" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 5 figures plus 11-page supplemental material</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Physical Review Research 5, 043216 (2023)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.12320v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12320v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12310v1</id>
+    <updated>2023-12-19T16:30:44Z</updated>
+    <published>2023-12-19T16:30:44Z</published>
+    <title>Quantum squeezing induced quantum entanglement and EPR steering in
+  coupled optomechanical system</title>
+    <summary>  We propose a theoretical project in which quantum squeezing induces quantum
+entanglement and Einstein-Podolsky-Rosen steering in a coupled
+whispering-gallery-mode optomechanical system. Through pumping the
+$\chi^{(2)}$-nonlinear resonator with the phase matching condition, the
+generated squeezed resonator mode and the mechanical mode of the optomechanical
+resonator can generate strong quantum entanglement and EPR steering, where the
+squeezing of the nonlinear resonator plays the vital role. The transitions from
+zero entanglement to strong entanglement and one-way steering to two-way
+steering can be realized by adjusting the system parameters appropriately. The
+photon-photon entanglement and steering between the two resonators can also be
+obtained by deducing the amplitude of the driving laser. Our project does not
+need an extraordinarily squeezed field, and it is convenient to manipulate and
+provides a novel and flexible avenue for diverse applications in quantum
+technology dependent on both optomechanical and photon-photon entanglement and
+steering.
+</summary>
+    <author>
+      <name>Shao-Xiong Wu</name>
+    </author>
+    <author>
+      <name>Cheng-Hua Bai</name>
+    </author>
+    <author>
+      <name>Gang Li</name>
+    </author>
+    <author>
+      <name>Chang-shui Yu</name>
+    </author>
+    <author>
+      <name>Tiancai Zhang</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1364/OE.510160</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1364/OE.510160" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Opt. Express, 32, 260-274 (2024)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.12310v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12310v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12291v1</id>
+    <updated>2023-12-19T16:14:01Z</updated>
+    <published>2023-12-19T16:14:01Z</published>
+    <title>Quench dynamics in higher-dimensional Holstein models: Insights from
+  Truncated Wigner Approaches</title>
+    <summary>  Charge-density wave phases in quantum materials stem from the complex
+interplay of electronic and lattice degrees of freedom. Nowadays, various
+time-resolved spectroscopy techniques allow to actively manipulate such phases
+and monitor their dynamics in real time. Modeling such nonequilibrium dynamics
+theoretically is a great challenge and exact methods can usually only treat a
+small number of atoms and finitely many phonons. We approach the melting of
+charge-density waves in a Holstein model after a sudden switch-on of the
+electronic hopping from two perspectives: We prove that in the non-interacting
+and in the strong-coupling limit, the CDW order parameter on high-dimensional
+hypercubic lattices obeys a factorization relation for long times, such that
+its dynamics can be reduced to the one-dimensional case. Secondly, we present
+numerical results from semiclassical techniques based on the Truncated Wigner
+Approximation for two spatial dimensions. A comparison with exact data obtained
+for a Holstein chain shows that a semiclassical treatment of both the electrons
+and phonons is required in order to correctly describe the phononic dynamics.
+This is confirmed, in addition, for a quench in the electron-phonon coupling
+strength.
+</summary>
+    <author>
+      <name>Eva Paprotzki</name>
+    </author>
+    <author>
+      <name>Alexander Osterkorn</name>
+    </author>
+    <author>
+      <name>Vibhu Mishra</name>
+    </author>
+    <author>
+      <name>Stefan Kehrein</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Figure data is attached</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12291v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12291v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12256v1</id>
+    <updated>2023-12-19T15:39:37Z</updated>
+    <published>2023-12-19T15:39:37Z</published>
+    <title>Cavity-resonated detection of spin polarization in a microfabricated
+  atomic vapor cell</title>
+    <summary>  We demonstrate continuous Pound-Drever-Hall (PDH) nondestructive monitoring
+of the electron spin polarization of an atomic vapor in a microfabricated vapor
+cell within an optical resonator. The two-chamber silicon and glass cell
+contains $^{87}$Rb and 1.3 amagat of N$_{2}$ buffer gas, and is placed within a
+planar optical resonator formed by two mirrors with dichroic dielectric
+coatings to resonantly enhance the coupling to phase-modulated probe light near
+the D$_2$ line at 780 nm. We describe the theory of signal generation in this
+system, including the spin-dependent complex refractive index, cavity optical
+transfer functions, and PDH signal response to spin polarization. We observe
+cavity transmission and PDH signals across $\approx 200$ GHz of detuning around
+the atomic resonance line. By resonant optical pumping on the 795 nm D$_1$
+line, we observe spin-dependent cavity line shifts, in good agreement with
+theory. We use the saturation of the line shift vs. optical pumping power to
+calibrate the number density and efficiency of the optical pumping. In the
+unresolved sideband regime, we observe quantum-noise-limited PDH readout of the
+spin polarization density, with a flat noise floor of $9 \times 10^9$ spins
+cm$^{-3}$ Hz$^{-1/2}$ for frequencies above 700 Hz. We note possible extensions
+of the technique.
+</summary>
+    <author>
+      <name>María Hernández Ruiz</name>
+    </author>
+    <author>
+      <name>Yintao Ma</name>
+    </author>
+    <author>
+      <name>Hana Medhat</name>
+    </author>
+    <author>
+      <name>Vito Giovanni Lucivero</name>
+    </author>
+    <author>
+      <name>Morgan W. Mitchell</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12256v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12256v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12239v1</id>
+    <updated>2023-12-19T15:23:55Z</updated>
+    <published>2023-12-19T15:23:55Z</published>
+    <title>Solvable entanglement dynamics in quantum circuits with generalized dual
+  unitarity</title>
+    <summary>  We study the non-equilibrium dynamics of kicked Ising models in $1+1$
+dimensions which have interactions alternating between odd and even bonds in
+time. These models give rise to time-evolution equivalent to quantum circuits
+having both the global property of tri-unitarity (three 'arrows of time') and
+also the local property of second-level dual-unitarity, which constrains the
+behavior of pairs of local gates underlying the circuit under a space-time
+rotation. We identify a broad class of initial product states wherein the
+effect of the environment on a small subsystem can be exactly represented by
+influence matrices with simple Markovian structures, resulting in the
+subsystem's full dynamics being efficiently computable. We further find
+additional conditions under which the dynamics of entanglement can be solved
+for all times, yielding rich phenomenology ranging from linear growth at half
+the maximal speed allowed by locality, followed by saturation to maximum
+entropy (i.e., thermalization to infinite temperature); to entanglement growth
+with saturation to extensive but sub-maximal entropy. Our findings extend our
+knowledge of interacting quantum systems whose thermalizing dynamics can be
+efficiently and analytically computed, going beyond the well-known examples of
+integrable models, Clifford circuits, and dual-unitary circuits.
+</summary>
+    <author>
+      <name>Chuan Liu</name>
+    </author>
+    <author>
+      <name>Wen Wei Ho</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 + 22 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12239v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12239v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12212v1</id>
+    <updated>2023-12-19T14:57:46Z</updated>
+    <published>2023-12-19T14:57:46Z</published>
+    <title>Transient Temperature Dynamics of Reservoirs Connected Through an Open
+  Quantum System</title>
+    <summary>  The dynamics of open quantum systems connected with several reservoirs
+attract great attention due to its importance in quantum optics, biology,
+quantum thermodynamics, transport phenomena, etc. In many problems, the Born
+approximation is applicable which implies that the influence of the open
+quantum system on the reservoirs can be neglected. However, in the case of a
+long-time dynamics or mesoscopic reservoir, the reverse influence can be
+crucial. In this paper, we investigate the transient dynamics of several
+bosonic reservoirs connected through an open quantum system. We use an
+adiabatic approach to study the temporal dynamics of temperatures of the
+reservoirs during relaxation to thermodynamic equilibrium. We show that there
+are various types of temperature dynamics that strongly depend on the values of
+dissipative rates and initial temperatures. We demonstrate that temperatures of
+the reservoirs can exhibit non-monotonic behavior. Moreover, there are moments
+of time during which the reservoir with initially intermediate temperature
+becomes the hottest or coldest reservoir. The obtained results pave the way for
+managing energy flows in mesoscale and nanoscale systems.
+</summary>
+    <author>
+      <name>I. V. Vovchenko</name>
+    </author>
+    <author>
+      <name>A. A. Zyablovsky</name>
+    </author>
+    <author>
+      <name>A. A. Pukhov</name>
+    </author>
+    <author>
+      <name>E. S. Andrianov</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12212v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12212v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12172v2</id>
+    <updated>2023-12-21T18:28:01Z</updated>
+    <published>2023-12-19T14:03:40Z</published>
+    <title>Reassessing the advantage of indefinite causal orders for quantum
+  metrology</title>
+    <summary>  The quantum switch, the canonical example of a process with indefinite causal
+order, has been claimed to provide various advantages over processes with
+definite causal orders for some particular tasks in the field of quantum
+metrology. In this work, we argue that some of these advantages in fact do not
+hold if a fairer comparison is made. To this end, we consider a framework that
+allows for a proper comparison between the performance, quantified by the
+quantum Fisher information, of different classes of indefinite causal order
+processes and that of causal strategies on a given metrological task. More
+generally, by considering the recently proposed classes of circuits with
+classical or quantum control of the causal order, we come up with different
+examples where processes with indefinite causal order offer (or not) an
+advantage over processes with definite causal order, qualifying the interest of
+indefinite causal order regarding quantum metrology. As it turns out, for a
+range of examples, the class of quantum circuits with quantum control of causal
+order, which are known to be physically realizable, is shown to provide a
+strict advantage over causally ordered quantum circuits as well as over the
+class of quantum circuits with causal superposition. Thus, considering this
+class provides new evidence that indefinite causal order strategies can
+strictly outperform definite causal order strategies in quantum metrology.
+Moreover, it shows that the so-called dynamical control of causal order, a
+feature of quantum circuits with quantum control of the causal order but not of
+quantum circuits with mere causal superposition, can be a useful resource in
+quantum metrology.
+</summary>
+    <author>
+      <name>Raphaël Mothe</name>
+    </author>
+    <author>
+      <name>Cyril Branciard</name>
+    </author>
+    <author>
+      <name>Alastair A. Abbott</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12172v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12172v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12168v1</id>
+    <updated>2023-12-19T14:02:16Z</updated>
+    <published>2023-12-19T14:02:16Z</published>
+    <title>Phase Retrieval in Incoherent Diffractive Imaging using higher-order
+  photon correlation functions</title>
+    <summary>  To obtain spatial information about an arbitrary object in x-ray structure
+analysis, the standard method is to measure the intensity in the far field,
+i.e., the first-order photon correlation function of the coherently scattered
+x-ray photons (coherent diffractive imaging). Recently, it was suggested to
+record alternatively the incoherently scattered photons and measure the
+second-order photon correlation function to reconstruct the geometry of the
+unknown object (incoherent diffractive imaging). Yet, besides various
+advantages of the latter method, both techniques suffer from the so-called
+phase retrieval problem. Lately, an ab-initio phase retrieval algorithm to
+reconstruct the phase of the so-called structure factor of the scattering
+objects based on the third-order photon correlation function was reported. The
+algorithm makes use of the so-called closure phase, which contains important,
+yet incomplete phase information, well-known from triple correlations and their
+bispectrum in speckle masking and astronomy applications. Here, we provide a
+detailed analysis of the underlying scheme and quantities in the context of
+x-ray structure analysis. In particular, we explicitly calculate the
+third-order photon correlation function in a full quantum mechanical treatment
+and discuss the uniqueness of the closure phase equations constructed from it.
+In this context, we recapitulate the sign problem of the closure phase and how
+it can be lifted using redundant information. We further show how the algorithm
+can be improved using even higher-order photon correlation functions, e.g., the
+fourth-order correlation function, delivering new phase relations appearing in
+the four-point correlations.
+</summary>
+    <author>
+      <name>M. Bojer</name>
+    </author>
+    <author>
+      <name>J. Eckert</name>
+    </author>
+    <author>
+      <name>S. Karl</name>
+    </author>
+    <author>
+      <name>S. Richter</name>
+    </author>
+    <author>
+      <name>J. von Zanthier</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12168v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12168v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12161v1</id>
+    <updated>2023-12-19T13:48:58Z</updated>
+    <published>2023-12-19T13:48:58Z</published>
+    <title>Towards an in-depth detection of malware using distributed QCNN</title>
+    <summary>  Malware detection is an important topic of current cybersecurity, and Machine
+Learning appears to be one of the main considered solutions even if certain
+problems to generalize to new malware remain. In the aim of exploring the
+potential of quantum machine learning on this domain, our previous work showed
+that quantum neural networks do not perform well on image-based malware
+detection when using a few qubits. In order to enhance the performances of our
+quantum algorithms for malware detection using images, without increasing the
+resources needed in terms of qubits, we implement a new preprocessing of our
+dataset using Grayscale method, and we couple it with a model composed of five
+distributed quantum convolutional networks and a scoring function. We get an
+increase of around 20 \% of our results, both on the accuracy of the test and
+its F1-score.
+</summary>
+    <author>
+      <name>Tony Quertier</name>
+    </author>
+    <author>
+      <name>Grégoire Barrué</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12161v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12161v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12118v1</id>
+    <updated>2023-12-19T12:48:30Z</updated>
+    <published>2023-12-19T12:48:30Z</published>
+    <title>Iteration-Dependent Scaled Min-Sum Decoding for Low-Complexity Key
+  Reconciliation in CV-QKD</title>
+    <summary>  We introduce an iteration-dependent scaled min-sum decoding for low-rate LDPC
+codes in CV-QKD, achieving near-sum product algorithm performance with reduced
+complexity, and facilitating CV-QKD hardware implementation.
+</summary>
+    <author>
+      <name>Erdem Eray Cil</name>
+    </author>
+    <author>
+      <name>Laurent Schmalen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted and to be presented at the Optical Fiber Communication
+  Conference (OFC) 2024</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12118v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12118v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12101v1</id>
+    <updated>2023-12-19T12:25:22Z</updated>
+    <published>2023-12-19T12:25:22Z</published>
+    <title>Quantum Tunnelling and Thermally Driven Transitions in a Double Well
+  Potential at Finite Temperature</title>
+    <summary>  We explore dissipative quantum tunnelling, a phenomenon central to various
+physical and chemical processes, using a double-well potential model. This
+paper aims to bridge gaps in understanding the crossover from thermal
+activation to quantum tunnelling, a domain still shrouded in mystery despite
+extensive research. We study a Caldeira-Leggett-derived model of quantum
+Brownian motion and investigate the Lindblad and stochastic Schr\"{o}dinger
+dynamics numerically, seeking to offer new insights into the transition states
+in the crossover region. Our study has implications for quantum computing and
+understanding fundamental natural processes, highlighting the significance of
+quantum effects on transition rates and temperature influences on tunnelling.
+  Additionally, we introduce a new model for quantum Brownian motion which
+takes Lindblad form and is formulated as a modification of the widely known
+model found in Breuer and Petruccione. In our approach, we remove the
+zero-temperature singularity resulting in a better description of
+low-temperature quantum Brownian motion near a potential minima.
+</summary>
+    <author>
+      <name>Robson Christie</name>
+    </author>
+    <author>
+      <name>Jessica Eastman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 14 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12101v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12101v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="82B10 (Primary) 81S25 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12054v2</id>
+    <updated>2023-12-25T06:34:10Z</updated>
+    <published>2023-12-19T11:17:45Z</published>
+    <title>Effects of cavity-mediated processes on the polarization entanglement of
+  photon pairs emitted from quantum dots</title>
+    <summary>  Semiconductor quantum dots are among the best sources of on-demand entangled
+photon pairs. The degree of entanglement, however, is generally limited by the
+fine structure splitting of exciton states. In this paper, we theoretically
+investigate the generation of polarisation-entangled photon pairs under
+two-photon excitation and cavity-assisted two-photon emission, both in the weak
+and strong cavity coupling regimes. We demonstrate and clarify that cavity
+coupling together with an excitation pulse reduces the degree of entanglement
+in three different ways. Firstly, in a strong coupling regime, cavity
+introduces the unequal ac-Stark shift of horizontally and vertically polarised
+exciton states, which results in the effective splitting of exciton states.
+Secondly, it induces the cross-coupling between the exciton states even in the
+weak coupling regime, causing the creation of unfavorable two-photon states.
+Finally, higher excited states of the cavity modes also contribute to the
+reduction of entanglement. Therefore, in the setting considered here, cavity
+coupling, which is generally required for the efficient collection of emitted
+photons, degrades the entanglement both in weak and strong coupling regimes.
+</summary>
+    <author>
+      <name>Mukesh Kumar Samal</name>
+    </author>
+    <author>
+      <name>Divya Mishra</name>
+    </author>
+    <author>
+      <name>Parvendra Kumar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12054v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12054v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12048v2</id>
+    <updated>2023-12-20T12:44:06Z</updated>
+    <published>2023-12-19T11:05:38Z</published>
+    <title>Irreversible behaviour of a gas owing to Unruh radiation</title>
+    <summary>  When gas molecules collide, they accelerate, and therefore encounter the
+Fulling-Davies-Unruh and Moore-DeWitt effects. The size of these effects is
+sufficient to randomize the motion of the gas molecules after about 1
+nanosecond at standard temperature and pressure. Such observations show that
+quantum field theory modifies what is required to isolate a physical system
+sufficiently for its behaviour to be unitary. In practice the requirements are
+never satisfied exactly. Therefore the evolution of the observable universe is
+non-unitary and thermodynamically irreversible.
+</summary>
+    <author>
+      <name>Andrew M. Steane</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12048v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12048v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12047v2</id>
+    <updated>2024-01-09T17:25:00Z</updated>
+    <published>2023-12-19T11:01:19Z</published>
+    <title>Jordan Algebraic Formulation of Quantum Mechanics and The
+  Non-commutative Landau Problem</title>
+    <summary>  We present a Jordan algebraic formulation of the non-commutative Landau
+problem coupled to a harmonic potential. To achieve this, an alternative
+formulation of the Hilbert space version of quantum mechanics is presented.
+Using this construction, the Hilbert space corresponding to the non-commutative
+Landau problem is obtained. Non-commutative parameters are then described in
+terms of an associator in the Jordan algebraic setting. Pure states and density
+matrices arising from this problem are characterized. This in turn leads us to
+the Jordan-Schr\"odinger time-evolution equation for the state vectors for this
+specific problem.
+</summary>
+    <author>
+      <name>Tekin Dereli</name>
+    </author>
+    <author>
+      <name>Ekin Sıla Yörük</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12047v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12047v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12040v1</id>
+    <updated>2023-12-19T10:49:41Z</updated>
+    <published>2023-12-19T10:49:41Z</published>
+    <title>Transitive Nonlocal Games</title>
+    <summary>  We study a class of nonlocal games, called transitive games, for which the
+set of perfect strategies forms a semigroup. We establish several interesting
+correspondences of bisynchronous transitive games with the theory of compact
+quantum groups. In particular, we associate a quantum permutation group with
+each bisynchronous transitive game and vice versa. We prove that the existence
+of a C*-strategy, the existence of a quantum commuting strategy, and the
+existence of a classical strategy are all equivalent for bisynchronous
+transitive games. We then use some of these correspondences to establish
+necessary and sufficient conditions for some classes of correlations, that
+arise as perfect strategies of transitive games, to be nonlocal.
+</summary>
+    <author>
+      <name>Prem Nigam Kar</name>
+    </author>
+    <author>
+      <name>Jitendra Prakash</name>
+    </author>
+    <author>
+      <name>David E Roberson</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.12040v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12040v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12034v1</id>
+    <updated>2023-12-19T10:42:04Z</updated>
+    <published>2023-12-19T10:42:04Z</published>
+    <title>Boosting energy transfer between quantum devices through spectrum
+  engineering in the dissipative ultrastrong coupling regime</title>
+    <summary>  The coherent energy transfer between two quantum devices (a quantum charger
+and a quantum battery) mediated by a photonic cavity is investigated, in
+presence of dissipative environments, with particular focus on the the
+ultrastrong coupling regime. Here, very short transfer times and high charging
+power can be achieved in comparison with the usually addressed weak coupling
+case. Such phenomenology is further magnified by the presence of level
+crossings appearing in the energy spectrum and which reveal very robust against
+dissipative environmental effects. Moreover, by carefully control the physical
+parameters of the model, e.g. the matter-radiation coupling and the frequencies
+of the system, it is possible to tune these crossings making this device more
+flexible and experimentally feasible. Finally to broaden our analysis, we
+assume the possibility of choosing between a Fock and a coherent initial state
+of the cavity, with the latter showing better energetic performances.
+</summary>
+    <author>
+      <name>Alba Crescente</name>
+    </author>
+    <author>
+      <name>Dario Ferraro</name>
+    </author>
+    <author>
+      <name>Maura Sassetti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12034v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12034v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11946v1</id>
+    <updated>2023-12-19T08:43:44Z</updated>
+    <published>2023-12-19T08:43:44Z</published>
+    <title>Further Exercises about Sporadic SICs</title>
+    <summary>  I review some recent technical developments in quantum information theory by
+rephrasing them in the form of exercises.
+</summary>
+    <author>
+      <name>Blake C. Stacey</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages of homework, just in time for the holidays</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11946v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11946v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11941v1</id>
+    <updated>2023-12-19T08:40:23Z</updated>
+    <published>2023-12-19T08:40:23Z</published>
+    <title>Entanglement transition in deep neural quantum states</title>
+    <summary>  Despite the huge theoretical potential of neural quantum states, their use in
+describing generic, highly-correlated quantum many-body systems still often
+poses practical difficulties. Customized network architectures are under active
+investigation to address these issues. For a guided search of suited network
+architectures a deepened understanding of the link between neural network
+properties and attributes of the physical system one is trying to describe, is
+imperative. Drawing inspiration from the field of machine learning, in this
+work we show how information propagation in deep neural networks impacts the
+physical entanglement properties of deep neural quantum states. In fact, we
+link a previously identified information propagation phase transition of a
+neural network to a similar transition of entanglement in neural quantum
+states. With this bridge we can identify optimal neural quantum state
+hyperparameter regimes for representing area as well as volume law entangled
+states. The former are easily accessed by alternative methods, such as tensor
+network representations, at least in low physical dimensions, while the latter
+are challenging to describe generally due to their extensive quantum
+entanglement. This advance of our understanding of network configurations for
+accurate quantum state representation helps to develop effective
+representations to deal with volume-law quantum states, and we apply these
+findings to describe the ground state (area law state) vs. the excited state
+(volume law state) properties of the prototypical next-nearest neighbor
+spin-1/2 Heisenberg model.
+</summary>
+    <author>
+      <name>Giacomo Passetti</name>
+    </author>
+    <author>
+      <name>Dante M. Kennes</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.11941v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11941v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11924v1</id>
+    <updated>2023-12-19T08:04:17Z</updated>
+    <published>2023-12-19T08:04:17Z</published>
+    <title>Co-propagation of QKD &amp; 6 Tb/s (60x100G) DWDM channels with ~17 dBm
+  total WDM power in single and multi-span configurations</title>
+    <summary>  We report co-propagation experiments of the quantum channel (at 1310 nm) of a
+Quantum Key Distribution (QKD) system with Dense Wavelength Division
+Multiplexing (DWDM) data channels in the 1550 nm range. Two configurations are
+assessed. The first one is a single span configuration where various lengths of
+Standard Single Mode Fiber (SSMF) (from 20 to 70 km) are used and the total WDM
+channels power is varied. The Secure Key Rate (SKR) and the Quantum Bit Error
+Ratio (QBER) are recorded showing that up to ~17 dBm total power of 30 or 60
+channels at 100 Gb/s can coexist with the quantum channel. A metric to evaluate
+the co-propagation efficiency is also proposed to better evaluate the ability
+of a QKD system to provide secure keys in a co-propagation regime. The second
+experiment is a three spans link with a cascade of three QKD systems and two
+trusted nodes in a 184 km total link length. We report the transmission of a
+coherent 400 Gb/s Dual Polarization DP-16QAM (Quadrature Amplitude Modulation)
+channel that transports a QKD secured 100 GbE data stream, with other
+fifty-four 100 Gb/s WDM channels. Encryption is demonstrated at the same time
+as co-propagation.
+</summary>
+    <author>
+      <name>P. Gavignet</name>
+    </author>
+    <author>
+      <name>E. Pincemin</name>
+    </author>
+    <author>
+      <name>F. Herviou</name>
+    </author>
+    <author>
+      <name>Y. Loussouarn</name>
+    </author>
+    <author>
+      <name>F. Mondain</name>
+    </author>
+    <author>
+      <name>A. J. Grant</name>
+    </author>
+    <author>
+      <name>L. Johnson</name>
+    </author>
+    <author>
+      <name>R. I. Woodward</name>
+    </author>
+    <author>
+      <name>J. F. Dynes</name>
+    </author>
+    <author>
+      <name>B. Summers</name>
+    </author>
+    <author>
+      <name>A. J. Shields</name>
+    </author>
+    <author>
+      <name>K. Taira</name>
+    </author>
+    <author>
+      <name>H. Sato</name>
+    </author>
+    <author>
+      <name>R. Zink</name>
+    </author>
+    <author>
+      <name>V. Grempka</name>
+    </author>
+    <author>
+      <name>V. Castay</name>
+    </author>
+    <author>
+      <name>J. Zou</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/JLT.2023.3324840</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/JLT.2023.3324840" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: text overlap with arXiv:2305.13742</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11924v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11924v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11864v1</id>
+    <updated>2023-12-19T05:26:03Z</updated>
+    <published>2023-12-19T05:26:03Z</published>
+    <title>Macroscopic entanglement between ferrimagnetic magnons and atoms via
+  crossed optical cavity</title>
+    <summary>  We consider a two-dimensional opto-magnomechanical (OMM) system including two
+optical cavity modes, a magnon mode, a phonon mode, and a collection of
+two-level atoms. In this study, we demonstrate the methodology for generating
+stationary entanglement between two-level atoms and magnons, which are
+implemented using two optical cavities inside the setup. Additionally, we
+investigate the efficiency of transforming entanglement from atom-phonon
+entanglement to atom-magnon entanglement. The magnons are stimulated by both a
+bias magnetic field and a microwave magnetic field, and they interact with
+phonons through the mechanism of magnetostrictive interaction. This interaction
+generates magnomechanical displacement, which couples to an optical cavity via
+radiation pressure. We demonstrate that by carefully selecting the frequency
+detuning of an optical cavity, it is possible to achieve an increase in
+bipartite entanglements. Furthermore, this improvement is found to be resistant
+to changes in temperature. The entanglement between atoms and magnons plays a
+crucial role in the construction of hybrid quantum networks. Our modeling
+approach exhibits potential applications in the field of magneto-optical trap
+systems as well.
+</summary>
+    <author>
+      <name>Ke Di</name>
+    </author>
+    <author>
+      <name>Xi Wang</name>
+    </author>
+    <author>
+      <name>Huarong Xia</name>
+    </author>
+    <author>
+      <name>Yinxue Zhao</name>
+    </author>
+    <author>
+      <name>Anyu Cheng</name>
+    </author>
+    <author>
+      <name>Yu Liu</name>
+    </author>
+    <author>
+      <name>Jiajia Du</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: text overlap with arXiv:1903.00221 by other authors</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11864v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11864v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11857v1</id>
+    <updated>2023-12-19T04:56:59Z</updated>
+    <published>2023-12-19T04:56:59Z</published>
+    <title>Anderson transition and mobility edges on hyperbolic lattices</title>
+    <summary>  Hyperbolic lattices, formed by tessellating the hyperbolic plane with regular
+polygons, exhibit a diverse range of exotic physical phenomena beyond
+conventional Euclidean lattices. Here, we investigate the impact of disorder on
+hyperbolic lattices and reveal that the Anderson localization occurs at strong
+disorder strength, accompanied by the presence of mobility edges. Taking the
+hyperbolic $\{p,q\}=\{3,8\}$ and $\{p,q\}=\{4,8\}$ lattices as examples, we
+employ finite-size scaling of both spectral statistics and the inverse
+participation ratio to pinpoint the transition point and critical exponents.
+Our findings indicate that the transition points tend to increase with larger
+values of $\{p,q\}$ or curvature. In the limiting case of $\{\infty, q\}$, we
+further determine its Anderson transition using the cavity method, drawing
+parallels with the random regular graph. Our work lays the cornerstone for a
+comprehensive understanding of Anderson transition and mobility edges in
+non-Euclidean lattices.
+</summary>
+    <author>
+      <name>Tianyu Li</name>
+    </author>
+    <author>
+      <name>Yi Peng</name>
+    </author>
+    <author>
+      <name>Yucheng Wang</name>
+    </author>
+    <author>
+      <name>Haiping Hu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7+6 pages, 5+3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11857v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11857v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11853v1</id>
+    <updated>2023-12-19T04:44:32Z</updated>
+    <published>2023-12-19T04:44:32Z</published>
+    <title>Re-exploring Control Strategies in a Non-Markovian Open Quantum System
+  by Reinforcement Learning</title>
+    <summary>  In this study, we reexamine a recent optimal control simulation targeting the
+preparation of a superposition of two excited electronic states in the UV range
+in a complex molecular system. We revisit this control from the perspective of
+reinforcement learning, offering an efficient alternative to conventional
+quantum control methods. The two excited states are addressable by orthogonal
+polarizations and their superposition corresponds to a right or left
+localization of the electronic density. The pulse duration spans tens of
+femtoseconds to prevent excitation of higher excited bright states what leads
+to a strong perturbation by the nuclear motions. We modify an open source
+software by L. Giannelli et al., Phys. Lett. A, 434, 128054 (2022) that
+implements reinforcement learning with Lindblad dynamics, to introduce
+non-Markovianity of the surrounding either by timedependent rates or more
+exactly by using the hierarchical equations of motion with the QuTiP-BoFiN
+package. This extension opens the way to wider applications for non-Markovian
+environments, in particular when the active system interacts with a highly
+structured noise.
+</summary>
+    <author>
+      <name>Amine Jaouadi</name>
+    </author>
+    <author>
+      <name>Etienne Mangaud</name>
+    </author>
+    <author>
+      <name>Michèle Desouter-Lecomte</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11853v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11853v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11840v1</id>
+    <updated>2023-12-19T04:12:56Z</updated>
+    <published>2023-12-19T04:12:56Z</published>
+    <title>$k$-commutativity and measurement reduction for expectation values</title>
+    <summary>  We introduce a notion of commutativity between operators on a tensor product
+space, nominally Pauli strings on qubits, that interpolates between qubit-wise
+commutativity and (full) commutativity. We apply this notion, which we call
+$k$-commutativity, to measuring expectation values of observables in quantum
+circuits and show a reduction in the number measurements at the cost of
+increased circuit depth. Last, we discuss the asymptotic measurement complexity
+of $k$-commutativity for several families of $n$-qubit Hamiltonians, showing
+examples with $O(1)$, $O(\sqrt{n})$, and $O(n)$ scaling.
+</summary>
+    <author>
+      <name>Ben DalFavero</name>
+    </author>
+    <author>
+      <name>Rahul Sarkar</name>
+    </author>
+    <author>
+      <name>Daan Camps</name>
+    </author>
+    <author>
+      <name>Nicolas Sawaya</name>
+    </author>
+    <author>
+      <name>Ryan LaRose</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11840v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11840v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14181v1</id>
+    <updated>2023-12-19T02:47:35Z</updated>
+    <published>2023-12-19T02:47:35Z</published>
+    <title>Reversal of Orbital Hall Conductivity and Emergence of Tunable
+  Topological Quantum States in Orbital Hall Insulator</title>
+    <summary>  Recent findings indicate that orbital angular momentum (OAM) has the
+capability to induce the intrinsic orbital Hall effect (OHE), which is
+characterized by orbital Chern number in the orbital Hall insulator. Unlike the
+spin-polarized channel in Quantum anomalous Hall insulator, the OAM is
+valley-locked, posing challenges in manipulating the corresponding edge state.
+Here we demonstrate the sign-reversal orbital Chern number through strain
+engineering by combing the $k \cdot p$ model and first-principles calculation.
+Under the manipulation of strain, we observe the transfer of non-zero OAM from
+the valence band to the conduction band, aligning with the orbital contribution
+in the electronic structure. Our investigation reveals that electrons and holes
+with OAM exhibit opposing trajectories, resulting in a reversal of the orbital
+Hall conductivity. Furthermore, we explore the topological quantum state
+between the sign-reversible OHE.
+</summary>
+    <author>
+      <name>Shilei Ji</name>
+    </author>
+    <author>
+      <name>Chuye Quan</name>
+    </author>
+    <author>
+      <name>Ruijia Yao</name>
+    </author>
+    <author>
+      <name>Jianping Yang</name>
+    </author>
+    <author>
+      <name>Xing'ao Li</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.14181v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.14181v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11777v2</id>
+    <updated>2024-01-10T11:52:52Z</updated>
+    <published>2023-12-19T01:17:35Z</published>
+    <title>Field-free alignment and orientation of linear molecules by two-color
+  trapezoidal laser pulses</title>
+    <summary>  The field-free alignment and orientation of the linear molecule by the
+two-color trapezoidal laser pulses were theoretically investigated. The
+trapezoidal shape of a laser pulse allows to enhance the maximum alignment
+degree for the same intensity and duration comparing to the conventional
+Gaussian laser pulse. The alignment and orientation persist after the pulse for
+both non-adiabatic and adiabatic regimes. While the maximum (during the pulse)
+alignment degree quickly saturates and remains almost constant with the pulse
+duration increase, the dependencies of the maximum (outside the laser pulse)
+alignment and orientation degrees on the pulse duration show the clear periodic
+structures in the adiabatic regime. The effect of the non-zero temperature is
+also shown. Applying additional the monochromatic or two-color prepulse
+increases the maximum orientation degree, but the application of the two-color
+prepulse leads to a higher maximum orientation degree than the monochromatic
+prepulse. The effect of the relative phase variation on the molecular
+orientation in case of one and two pulses was also discussed.
+</summary>
+    <author>
+      <name>Eugene A. Koval</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.11777v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11777v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

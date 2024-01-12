@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dti%3A%22quantum%20computing%22%20AND%20submittedDate%3A%5B202312180000%20TO%20202312182359%5D%26id_list%3D%26start%3D0%26max_results%3D40" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=ti:"quantum computing" AND submittedDate:[202312180000 TO 202312182359]&amp;id_list=&amp;start=0&amp;max_results=40</title>
+  <id>http://arxiv.org/api/LD8tOE8TCyxidzOrkHdhO05GBmI</id>
+  <updated>2024-01-12T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">5</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">40</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11673v1</id>
+    <updated>2023-12-18T19:30:26Z</updated>
+    <published>2023-12-18T19:30:26Z</published>
+    <title>First quantum machine learning applications on an on-site
+  room-temperature quantum computer</title>
+    <summary>  We demonstrate - for the first time - the application of a quantum machine
+learning (QML) algorithm on an on-site room-temperature quantum computer. A
+two-qubit quantum computer installed at the Pawsey Supercomputing Centre in
+Perth, Australia, is used to solve multi-class classification problems on
+unseen, i.e. untrained, 2D data points. The underlying 1-qubit model is based
+on the data re-uploading framework of the universal quantum classifier and was
+trained on an ideal quantum simulator using the Adam optimiser. No noise models
+or device-specific insights were used in the training process. The optimised
+model was deployed to the quantum device by means of a single XYX decomposition
+leading to three parameterised single qubit rotations. The results for
+different classification problems are compared to the optimal results of an
+ideal simulator. The room-temperature quantum computer achieves very high
+classification accuracies, on par with ideal state vector simulations.
+</summary>
+    <author>
+      <name>Nils Herrmann</name>
+    </author>
+    <author>
+      <name>Mariam Akhtar</name>
+    </author>
+    <author>
+      <name>Daanish Arya</name>
+    </author>
+    <author>
+      <name>Marcus W. Doherty</name>
+    </author>
+    <author>
+      <name>Pascal Macha</name>
+    </author>
+    <author>
+      <name>Florian Preis</name>
+    </author>
+    <author>
+      <name>Stefan Prestel</name>
+    </author>
+    <author>
+      <name>Michael L. Walker</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11673v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11673v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11337v1</id>
+    <updated>2023-12-18T16:41:30Z</updated>
+    <published>2023-12-18T16:41:30Z</published>
+    <title>Challenges for Reinforcement Learning in Quantum Computing</title>
+    <summary>  Quantum computing (QC) in the current NISQ-era is still limited. To gain
+early insights and advantages, hybrid applications are widely considered
+mitigating those shortcomings. Hybrid quantum machine learning (QML) comprises
+both the application of QC to improve machine learning (ML), and the
+application of ML to improve QC architectures. This work considers the latter,
+focusing on leveraging reinforcement learning (RL) to improve current QC
+approaches. We therefore introduce various generic challenges arising from
+quantum architecture search and quantum circuit optimization that RL algorithms
+need to solve to provide benefits for more complex applications and
+combinations of those. Building upon these challenges we propose a concrete
+framework, formalized as a Markov decision process, to enable to learn policies
+that are capable of controlling a universal set of quantum gates. Furthermore,
+we provide benchmark results to assess shortcomings and strengths of current
+state-of-the-art algorithms.
+</summary>
+    <author>
+      <name>Philipp Altmann</name>
+    </author>
+    <author>
+      <name>Adelina Bärligea</name>
+    </author>
+    <author>
+      <name>Jonas Stein</name>
+    </author>
+    <author>
+      <name>Michael Kölle</name>
+    </author>
+    <author>
+      <name>Thomas Gabor</name>
+    </author>
+    <author>
+      <name>Thomy Phan</name>
+    </author>
+    <author>
+      <name>Claudia Linnhoff-Popien</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11337v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11337v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11253v1</id>
+    <updated>2023-12-18T14:51:15Z</updated>
+    <published>2023-12-18T14:51:15Z</published>
+    <title>Quantum Computing Inspired Iterative Refinement for Semidefinite
+  Optimization</title>
+    <summary>  Iterative Refinement (IR) is a classical computing technique for obtaining
+highly precise solutions to linear systems of equations, as well as linear
+optimization problems. In this paper, motivated by the limited precision of
+quantum solvers, we develop the first IR scheme for solving semidefinite
+optimization (SDO) problems and explore two major impacts of the proposed IR
+scheme. First, we prove that the proposed IR scheme exhibits quadratic
+convergence toward an optimal solution without any assumption on problem
+characteristics. We also show that using IR with Quantum Interior Point Methods
+(QIPMs) leads to exponential improvements in the worst-case overall running
+time of QIPMs, compared to previous best-performing QIPMs. We also discuss how
+the proposed IR scheme can be used with classical inexact SDO solvers, such as
+classical inexact IPMs with conjugate gradient methods.
+</summary>
+    <author>
+      <name>Mohammadhossein Mohammadisiahroudi</name>
+    </author>
+    <author>
+      <name>Brandon Augustino</name>
+    </author>
+    <author>
+      <name>Pouya Sampourmahani</name>
+    </author>
+    <author>
+      <name>Tamás Terlaky</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.11253v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11253v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11012v1</id>
+    <updated>2023-12-18T08:28:09Z</updated>
+    <published>2023-12-18T08:28:09Z</published>
+    <title>Coupled cluster method tailored with quantum computing</title>
+    <summary>  Introducing an active space approximation is inevitable for the quantum
+computations of chemical systems. However, this approximation ignores the
+electron correlations related to non-active orbitals. Here, we propose a
+computational method for correcting quantum computing results using a
+well-established classical theory called coupled cluster theory. Our approach
+efficiently extracts the quantum state from a quantum device by computational
+basis tomography. The extracted expansion coefficients of the quantum state are
+embedded into the coupled cluster ansatz within the framework of the tailored
+coupled cluster method. We demonstrate the performance of our method by
+verifying the potential energy curves of LiH, H2O, and N2 with a
+correlation-energy correction scheme. Our method demonstrates reasonable
+potential energy curves even when the standard coupled cluster fails. The
+sufficient numbers of measurements for tomography were also investigated.
+Furthermore, this method successfully estimated the activation energy of the
+Cope rearrangement reaction of 1,5-hexadiene together with perturbative triples
+correction. These demonstrations suggest that our approach has the potential
+for practical quantum chemical calculations using quantum computers.
+</summary>
+    <author>
+      <name>Luca Erhart</name>
+    </author>
+    <author>
+      <name>Yuichiro Yoshida</name>
+    </author>
+    <author>
+      <name>Viktor Khinevich</name>
+    </author>
+    <author>
+      <name>Wataru Mizukami</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.11012v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.11012v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.10865v1</id>
+    <updated>2023-12-18T01:01:31Z</updated>
+    <published>2023-12-18T01:01:31Z</published>
+    <title>Minimizing Photonic Cluster State Depth in Measurement-Based Quantum
+  Computing</title>
+    <summary>  Measurement-based quantum computing (MBQC) is a promising quantum computing
+paradigm that performs computation through ``one-way'' measurements on
+entangled quantum qubits. It is widely used in photonic quantum computing
+(PQC), where the computation is carried out on photonic cluster states (i.e., a
+2-D mesh of entangled photons). In MBQC-based PQC, the cluster state depth
+(i.e., the length of one-way measurements) to execute a quantum circuit plays
+an important role in the overall execution time and error. Thus, it is
+important to reduce the cluster state depth. In this paper, we propose FMCC, a
+compilation framework that employs dynamic programming to efficiently minimize
+the cluster state depth. Experimental results on five representative quantum
+algorithms show that FMCC achieves 53.6%, 60.6%, and 60.0% average depth
+reductions in small, medium, and large qubit counts compared to the
+state-of-the-art MBQC compilation frameworks.
+</summary>
+    <author>
+      <name>Yingheng Li</name>
+    </author>
+    <author>
+      <name>Aditya Pawar</name>
+    </author>
+    <author>
+      <name>Zewei Mo</name>
+    </author>
+    <author>
+      <name>Youtao Zhang</name>
+    </author>
+    <author>
+      <name>Jun Yang</name>
+    </author>
+    <author>
+      <name>Xulong Tang</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.10865v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.10865v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dti%3A%22quantum%20computing%22%20AND%20submittedDate%3A%5B202312190000%20TO%20202312192359%5D%26id_list%3D%26start%3D0%26max_results%3D40" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=ti:"quantum computing" AND submittedDate:[202312190000 TO 202312192359]&amp;id_list=&amp;start=0&amp;max_results=40</title>
+  <id>http://arxiv.org/api/FQZaJD+afdZYXf87zndpJzl3MOY</id>
+  <updated>2024-01-12T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">4</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">40</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12613v1</id>
+    <updated>2023-12-19T21:36:07Z</updated>
+    <published>2023-12-19T21:36:07Z</published>
+    <title>Toward coherent quantum computation of scattering amplitudes with a
+  measurement-based photonic quantum processor</title>
+    <summary>  In recent years, applications of quantum simulation have been developed to
+study properties of strongly interacting theories. This has been driven by two
+factors: on the one hand, needs from theorists to have access to physical
+observables that are prohibitively difficult to study using classical
+computing; on the other hand, quantum hardware becoming increasingly reliable
+and scalable to larger systems. In this work, we discuss the feasibility of
+using quantum optical simulation for studying scattering observables that are
+presently inaccessible via lattice QCD and are at the core of the experimental
+program at Jefferson Lab, the future Electron-Ion Collider, and other
+accelerator facilities. We show that recent progress in measurement-based
+photonic quantum computing can be leveraged to provide deterministic generation
+of required exotic gates and implementation in a single photonic quantum
+processor.
+</summary>
+    <author>
+      <name>Raúl A. Briceño</name>
+    </author>
+    <author>
+      <name>Robert G. Edwards</name>
+    </author>
+    <author>
+      <name>Miller Eaton</name>
+    </author>
+    <author>
+      <name>Carlos González-Arciniegas</name>
+    </author>
+    <author>
+      <name>Olivier Pfister</name>
+    </author>
+    <author>
+      <name>George Siopsis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12613v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12613v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12427v1</id>
+    <updated>2023-12-19T18:56:03Z</updated>
+    <published>2023-12-19T18:56:03Z</published>
+    <title>Enhancing quantum utility: simulating large-scale quantum spin chains on
+  superconducting quantum computers</title>
+    <summary>  We present the quantum simulation of the frustrated quantum
+spin-$\frac{1}{2}$ antiferromagnetic Heisenberg spin chain with competing
+nearest-neighbor $(J_1)$ and next-nearest-neighbor $(J_2)$ exchange
+interactions in the real superconducting quantum computer with qubits ranging
+up to 100. In particular, we implement, for the first time, the Hamiltonian
+with the next-nearest neighbor exchange interaction in conjunction with the
+nearest neighbor interaction on IBM's superconducting quantum computer and
+carry out the time evolution of the spin chain by employing first-order
+Trotterization. Furthermore, our novel implementation of second-order
+Trotterization for the isotropic Heisenberg spin chain, involving only
+nearest-neighbor exchange interaction, enables precise measurement of the
+expectation values of staggered magnetization observable across a range of up
+to 100 qubits. Notably, in both cases, our approach results in a constant
+circuit depth in each Trotter step, independent of the initial number of
+qubits. Our demonstration of the accurate measurement of expectation values for
+the large-scale quantum system using superconducting quantum computers
+designates the quantum utility of these devices for investigating various
+properties of many-body quantum systems. This will be a stepping stone to
+achieving the quantum advantage over classical ones in simulating quantum
+systems before the fault tolerance quantum era.
+</summary>
+    <author>
+      <name>Talal Ahmed Chowdhury</name>
+    </author>
+    <author>
+      <name>Kwangmin Yu</name>
+    </author>
+    <author>
+      <name>Mahmud Ashraf Shamim</name>
+    </author>
+    <author>
+      <name>M. L. Kabir</name>
+    </author>
+    <author>
+      <name>Raza Sabbir Sufian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages + references, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12427v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12427v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12386v1</id>
+    <updated>2023-12-19T18:18:51Z</updated>
+    <published>2023-12-19T18:18:51Z</published>
+    <title>Quantum Equation of Motion with Orbital Optimization for Computing
+  Molecular Properties in Near-Term Quantum Computing</title>
+    <summary>  Determining the properties of molecules and materials is one of the premier
+applications of quantum computing. A major question in the field is how to use
+imperfect near-term quantum computers to solve problems of practical value.
+Inspired by the recently developed variants of the quantum counterpart of the
+equation-of-motion (qEOM) approach and the orbital-optimized variational
+quantum eigensolver (oo-VQE), we present a quantum algorithm (oo-VQE-qEOM) for
+the calculation of molecular properties by computing expectation values on a
+quantum computer. We perform noise-free quantum simulations of BeH$_2$ in the
+series of STO-3G/6-31G/6-31G* basis sets, H$_4$ and H$_2$O in 6-31G using an
+active space of four electrons and four spatial orbitals (8 qubits) to evaluate
+excitation energies, electronic absorption, and for twisted H$_4$, circular
+dichroism spectra. We demonstrate that the proposed algorithm can reproduce the
+results of conventional classical CASSCF calculations for these molecular
+systems.
+</summary>
+    <author>
+      <name>Phillip W. K. Jensen</name>
+    </author>
+    <author>
+      <name>Erik Rosendahl Kjellgren</name>
+    </author>
+    <author>
+      <name>Peter Reinholdt</name>
+    </author>
+    <author>
+      <name>Karl Michael Ziems</name>
+    </author>
+    <author>
+      <name>Sonia Coriani</name>
+    </author>
+    <author>
+      <name>Jacob Kongsted</name>
+    </author>
+    <author>
+      <name>Stephan P. A. Sauer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17+12 pages, 3 figures, 1 table; comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2312.12386v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12386v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12320v1</id>
+    <updated>2023-12-19T16:44:49Z</updated>
+    <published>2023-12-19T16:44:49Z</published>
+    <title>Accurate harmonic vibrational frequencies for diatomic molecules via
+  quantum computing</title>
+    <summary>  During the noisy intermediate-scale quantum (NISQ) era, quantum computational
+approaches refined to overcome the challenge of limited quantum resources are
+highly valuable. However, the accuracy of the molecular properties predicted by
+most of the quantum computations nowadays is still far off (not within chemical
+accuracy) compared to their corresponding experimental data. Here, we propose a
+promising qubit-efficient quantum computational approach to calculate the
+harmonic vibrational frequencies of a large set of neutral closed-shell
+diatomic molecules with results in great agreement with their experimental
+data. To this end, we construct the accurate Hamiltonian using molecular
+orbitals, derived from density functional theory to account for the electron
+correlation and expanded in the Daubechies wavelet basis set to allow an
+accurate representation in real space grid points, where an optimized compact
+active space is further selected so that only a reduced small number of qubits
+is sufficient to yield an accurate result. To justify the approach, we
+benchmark the performance of the Hamiltonians spanned by the selected molecular
+orbitals by first transforming the molecular Hamiltonians into qubit
+Hamiltonians and then using the exact diagonalization method to calculate the
+results, regarded as the best results achievable by quantum computation.
+Furthermore, we show that the variational quantum circuit with the
+chemistry-inspired UCCSD ansatz can achieve the same accuracy as the exact
+diagonalization method except for systems whose Mayer bond order indices are
+larger than 2. For those systems, we demonstrate that the heuristic
+hardware-efficient RealAmplitudes ansatz, even with a shorter circuit depth,
+can provide a significant improvement over the UCCSD ansatz, verifying that the
+harmonic vibrational frequencies could be calculated accurately by quantum
+computation in the NISQ era.
+</summary>
+    <author>
+      <name>Shih-Kai Chou</name>
+    </author>
+    <author>
+      <name>Jyh-Pin Chou</name>
+    </author>
+    <author>
+      <name>Alice Hu</name>
+    </author>
+    <author>
+      <name>Yuan-Chung Cheng</name>
+    </author>
+    <author>
+      <name>Hsi-Sheng Goan</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevResearch.5.043216</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevResearch.5.043216" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 5 figures plus 11-page supplemental material</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Physical Review Research 5, 043216 (2023)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2312.12320v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.12320v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
