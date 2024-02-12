@@ -42,14 +42,16 @@ static partial class Demo
                             SemanticConfiguration = context.AzureSearchQueryType is "semantic" or "vectorSemanticHybrid"
                                 ? context.AzureSearchSemanticSearchConfig
                                 : "",
-                            FieldMappingOptions = new AzureCognitiveSearchIndexFieldMappingOptions
+                            FieldMappingOptions = context.UseVectorSearch ? null : new AzureCognitiveSearchIndexFieldMappingOptions
                             {
                                 ContentFieldNames = { "content" },
                                 UrlFieldName = "blog_url",
                                 TitleFieldName = "metadata_storage_name",
                                 FilepathFieldName = "metadata_storage_path"
                             },
-                            RoleInformation = context.SystemInstructions
+                            RoleInformation = context.SystemInstructions,
+                            EmbeddingEndpoint = context.UseVectorSearch ? new Uri(context.EmbeddingEndpoint) : null,
+                            EmbeddingKey = context.UseVectorSearch ? context.AzureOpenAiServiceKey : null
                         } 
                     }
                 }
